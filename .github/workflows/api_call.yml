@@ -29,10 +29,6 @@ jobs:
       run: |
         python3 epss_nvd.py  > FIRST_NVD.md
         cat $GITHUB_OUTPUT  # Debug: Show contents of $GITHUB_OUTPUT
-      continue-on-error: true
-
-        git push
-
 
     - name: Commit and Push
       run: |
