@@ -24,6 +24,7 @@ jobs:
     - name: Make API call
       id: api_call
       run: |
+        ls -R
         python3 epss_nvd.py  > FIRST_NVD.md
         cat $GITHUB_OUTPUT  # Debug: Show contents of $GITHUB_OUTPUT
       continue-on-error: true
