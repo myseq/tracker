@@ -27,7 +27,7 @@ jobs:
           echo -e "## Latest 5 CISA KEV Entries\n\n" >> latest_kev.md
           echo -e "| CVE ID | Vendor/Project | Product | Date Added |" >> latest_kev.md
           echo -e "| --- | --- | --- | --- |" >> latest_kev.md
-          jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:5] | .[] | "| [\(.cveID)] | \(.vendorProject) | \(.product) | \(.dateAdded) |"' kev.json >> latest_kev.md
+          jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:5] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) |"' kev.json >> latest_kev.md
           echo -e "\n\n" >> latest_kev.md
           echo -e "> *Last update: $TODAY*" >> latest_kev.md
 
