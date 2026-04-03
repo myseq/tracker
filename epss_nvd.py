@@ -47,7 +47,7 @@ def fetch_and_format_epss():
 
         markdown_output = f"### EPSS Priority Report (Top {len(vulnerabilities)} of {total_found} Total CVEs)\n\n"
         markdown_output += "| CVE | Percentage (Probability) | Percentile | CVSS Score |\n"
-        markdown_output += "| :--- | :--- | :--- | :--- |\n"
+        markdown_output += "| :-- | :----------------------: | ---------: | :--------: |\n"
 
         for v in vulnerabilities:
             cve_id = v['cve']
