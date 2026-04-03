@@ -22,16 +22,19 @@ jobs:
       - name: Parsing JSON
         run: |
           # Use jq to get the 5 most recent CVEs by dateAdded
-          echo "# Myseq Tracker\n\n" > latest_kev.md
-          echo "\n## Latest 5 CISA KEV Entries\n\n" >> latest_kev.md
-          echo "| CVE ID | Vendor/Project | Product | Date Added |" >> latest_cves.md
-          echo "| --- | --- | --- | --- |" >> latest_cves.md
-          jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:5] | .[] | "| [\(.cveID)] | \(.vendorProject) | \(.product) | \(.dateAdded) |"' kev.json >> latest_cves.md
+          TODAY=$(date +%Y-%m-%d)
+          echo "# Myseq Tracker\n\n" >> latest_kev.md
+          echo "## Latest 5 CISA KEV Entries\n\n" >> latest_kev.md
+          echo "| CVE ID | Vendor/Project | Product | Date Added |" >> latest_kev.md
+          echo "| --- | --- | --- | --- |" >> latest_kev.md
+          jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:5] | .[] | "| [\(.cveID)] | \(.vendorProject) | \(.product) | \(.dateAdded) |"' kev.json >> latest_kev.md
+          echo "\n\n" >> latest_kev.md
+          echo "> *Last update: $TODAY*" >> latest_kev.md
 
       - name: Update README
         run: |
           # Replace content between markers in README.md or just overwrite it
-          cat latest_cves.md > README.md
+          cat latest_kev.md > README.md
 
       - name: Commit and Push
         run: |
