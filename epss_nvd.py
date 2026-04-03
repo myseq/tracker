@@ -9,9 +9,8 @@ def get_cvss_score(cve_id):
     """Fetch the CVSS score from the NVD API."""
     """https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2019-1010218"""
 
-    #nvd_url = f"https://nist.gov{cve_id}"
     nvd_url = f"https://services.nvd.nist.gov/rest/json/cves/2.0?cveId={cve_id}"
-    print(f"Fetching from: {nvd_url}\n")
+    #print(f"Fetching from: {nvd_url}\n")
 
     try:
         # Note: NVD requests a delay between calls if you don't have an API key
@@ -36,7 +35,7 @@ def get_cvss_score(cve_id):
 def fetch_and_format_epss():
     url = f"https://api.first.org/data/v1/epss?epss-gt={epss_percentage}&percentile-gt={epss_percentile}&order=!epss&limit={top}"
     
-    print(f"Fetching from: {url}\n")
+    #print(f"Fetching from: {url}\n")
 
     try:
         response = requests.get(url)
@@ -56,7 +55,7 @@ def fetch_and_format_epss():
             percentile = f"{float(v['percentile']) * 100:.2f}th"
             
             # Call NVD for CVSS score
-            print(f"Enriching {cve_id}...")
+            #print(f"Enriching {cve_id}...")
             cvss_score = get_cvss_score(cve_id)
 
             markdown_output += f"| {cve_id} | {prob_percent} | {percentile} | {cvss_score} |\n"
