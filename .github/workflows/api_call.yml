@@ -1,0 +1,40 @@
+name: API Call
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 16 * * *'
+
+jobs:
+  CISA-KEV:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Make API call
+      id: api_call
+      run: |
+        python3 epss_nvd.py  > FIRST_NVD.md
+        cat $GITHUB_OUTPUT  # Debug: Show contents of $GITHUB_OUTPUT
+      continue-on-error: true
+
+    - name: Commit changes
+      if: ${{ steps.check_diff.outputs.exit_code != '0' }}
+      run: |
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Updated: ${timestamp}" || echo "No changes to commit"
+        git push
+
