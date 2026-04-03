@@ -17,7 +17,7 @@ jobs:
       - name: Fetching CISA KEV
         run: |
           # Fetch the official JSON feed
-          curl --silents --output kev.json https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+          curl -s https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json > kev.json
           
       - name: Parsing JSON
           # Use jq to get the 5 most recent CVEs by dateAdded
