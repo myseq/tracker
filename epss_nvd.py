@@ -20,9 +20,10 @@ def get_cvss_score(cve_id):
             data = response.json()
             vulnerabilities = data.get('vulnerabilities', [])
             if vulnerabilities:
-                cvename = 'n/a'
+                cvename = 'N/A'
                 metrics = vulnerabilities[0].get('cve', {}).get('metrics', {})
-                cvename = metrics.get('cisaVulnerabilityName', 'n/a')
+                cvename = vulnerabilities[0].get('cve', {}).get('cisaVulnerabilityName', 'n/a')
+                #cvename = metrics.get('cisaVulnerabilityName', 'n/a')
                 # Try to get CVSS v3.1 or v3.0, fallback to v2.0
                 v3 = metrics.get('cvssMetricV31') or metrics.get('cvssMetricV30')
                 if v3:
