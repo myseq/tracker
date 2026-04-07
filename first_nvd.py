@@ -4,7 +4,7 @@ import time
 
 epss_percentage = 0.50
 epss_percentile = 0.99
-top = 5
+top = 25
 
 # NVD is strict. This limits us to 2 concurrent requests at a time.
 # If you have an API key, you can increase this number.
