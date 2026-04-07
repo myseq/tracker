@@ -3,7 +3,7 @@ import time
 
 epss_percentage = 0.50
 epss_percentile = 0.99
-top = 25
+top = 5
 
 def get_cvss_score(cve_id):
     """Fetch the CVSS score from the NVD API."""
@@ -20,17 +20,19 @@ def get_cvss_score(cve_id):
             data = response.json()
             vulnerabilities = data.get('vulnerabilities', [])
             if vulnerabilities:
+                cvename = 'n/a'
                 metrics = vulnerabilities[0].get('cve', {}).get('metrics', {})
+                cvename = metrics.get('cisaVulnerabilityName', 'n/a')
                 # Try to get CVSS v3.1 or v3.0, fallback to v2.0
                 v3 = metrics.get('cvssMetricV31') or metrics.get('cvssMetricV30')
                 if v3:
-                    return v3[0]['cvssData']['baseScore']
+                    return v3[0]['cvssData']['baseScore'],cvename
                 v2 = metrics.get('cvssMetricV2')
                 if v2:
-                    return v2[0]['cvssData']['baseScore']
-        return "N/A"
+                    return v2[0]['cvssData']['baseScore'],cvename
+        return "N/A",'n/a'
     except Exception:
-        return "Error"
+        return "Error",'n/a'
 
 def fetch_and_format_epss():
     url = f"https://api.first.org/data/v1/epss?epss-gt={epss_percentage}&percentile-gt={epss_percentile}&order=!epss&limit={top}"
@@ -46,8 +48,8 @@ def fetch_and_format_epss():
         total_found = data.get('total', 0)
 
         markdown_output = f"### EPSS Priority Report (Top {len(vulnerabilities)} of {total_found} Total CVEs)\n\n"
-        markdown_output += "| CVE | Percentage (Probability) | Percentile | CVSS Score |\n"
-        markdown_output += "| :-- | :----------------------: | ---------: | :--------: |\n"
+        markdown_output += "| CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |\n"
+        markdown_output += "| :-- | :------------ | :----------------------: | ---------: | :--------: |\n"
 
         for v in vulnerabilities:
             cve_id = v['cve']
@@ -56,9 +58,9 @@ def fetch_and_format_epss():
             
             # Call NVD for CVSS score
             #print(f"Enriching {cve_id}...")
-            cvss_score = get_cvss_score(cve_id)
+            cvss_score,cvename = get_cvss_score(cve_id)
 
-            markdown_output += f"| {cve_id} | {prob_percent} | {percentile} | {cvss_score} |\n"
+            markdown_output += f"| {cve_id} | {cvename} | {prob_percent} | {percentile} | {cvss_score} |\n"
 
         print("\n" + markdown_output)
 
