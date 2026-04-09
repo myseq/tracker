@@ -2,13 +2,13 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3261 Total CVEs)
+### EPSS Priority Report (Top 25 of 3264 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
 | CVE-2023-23752 | Joomla! Improper Access Control Vulnerability | 94.52% | 100.00th | 5.3 |
-| CVE-2017-1000353 | Jenkins Remote Code Execution Vulnerability | 94.51% | 100.00th | 9.8 |
 | CVE-2017-8917 | n/a | 94.49% | 100.00th | 9.8 |
+| CVE-2017-1000353 | Jenkins Remote Code Execution Vulnerability | 94.49% | 100.00th | 9.8 |
 | CVE-2018-7600 | Drupal Core Remote Code Execution Vulnerability | 94.49% | 100.00th | 9.8 |
 | CVE-2021-22986 | F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability | 94.48% | 100.00th | 9.8 |
 | CVE-2018-1000861 | Jenkins Stapler Web Framework Deserialization of Untrusted Data Vulnerability | 94.48% | 100.00th | 9.8 |
