@@ -1,4 +1,4 @@
-name: API Call (FIRST_NVD)
+name: Async Access API (FIRST_NVD)
 
 permissions:
   contents: write
@@ -6,7 +6,7 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 16 * * *'
+    - cron: '2 22 * * *' # UTC +0 time
 
 jobs:
   CISA-KEV:
@@ -27,7 +27,7 @@ jobs:
     - name: Make API call
       id: api_call
       run: |
-        python3 first_nvd.py  > EPSS_CVSS.md
+        python3 async_first_nvd.py  > EPSS_CVSS.md
         cat $GITHUB_OUTPUT  # Debug: Show contents of $GITHUB_OUTPUT
 
     - name: Commit and Push
