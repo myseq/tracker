@@ -27,21 +27,27 @@ async def get_cvss_score(session, cve_id, semaphore):
                         metrics = cve_data.get('metrics', {})
                         #cvename = cve_data.get('cisaVulnerabilityName', 'n/a')
 
-                        if (cvename := cve_data.get('cisaVulnerabilityName')):
-                            print(f'Found cisaVulnerabilityName for {cve_id}.')
+                        #if (cvename := cve_data.get('cisaVulnerabilityName')):
+                        #    #print(f'Found cisaVulnerabilityName for {cve_id}.')
 
-                        elif (descs := cve_data.get('descriptions')):
-                            print(f'Found description for {cve_id}.')
-                            cvename = 'n/a' # set default before checking language
-                            for desc in descs:
-                                if desc.get('lang') == 'en':
-                                    cvename = f'Desc: {desc.get('value')}'
-                                    break
 
-                        else:
-                            cvename = 'n/a'
-                            print(f'Neither cisaVulnerabilityName nor description found for {cve_id}.')
+                        #elif (descs := cve_data.get('descriptions')):
+                        #    print(f'Found description for {cve_id}.')
+                        #    cvename = 'n/a' # set default before checking language
+                        #    for desc in descs:
+                        #        if desc.get('lang') == 'en':
+                        #            cvename = f'Desc: {desc.get('value')}'
+                        #            break
+
+                        #else:
+                        #    cvename = 'n/a'
+                        #    print(f'Neither cisaVulnerabilityName nor description found for {cve_id}.')
                         
+                        # Try CISA name first; if not found, try to extract the English description; otherwise 'n/a'
+                        cvename = (cve_data.get('cisaVulnerabilityName') or
+                                   next((f"*Description: {d['value']}*" for d in cve_data.get('descriptions', []) if d.get('lang') == 'en'), 'n/a'))
+
+
                         # Try to get CVSS v3.1, v3.0, or v2.0
                         #v3 = metrics.get('cvssMetricV31') or metrics.get('cvssMetricV30')
                         #if v3:
