@@ -35,8 +35,23 @@ async def get_cvss_score(session, cve_id, semaphore):
                         v2 = metrics.get('cvssMetricV2')
                         if v2:
                             return v2[0]['cvssData']['baseScore'], cvename
+
+                        # Priority 1: V3.1
+                        if (cvss := metrics.get('cvssMetricV31')):
+                            return cvss[0]['cvssData']['baseScore'], cvename
+
+                        # Priority 2: V3.0
+                        elif (cvss := metrics.get('cvssMetricV30')):
+                            return cvss[0]['cvssData']['baseScore'], cvename
+
+                        # Priority 3: V2.0
+                        elif (cvss := metrics.get('cvssMetricV2')):
+                            return cvss[0]['cvssData']['baseScore'], cvename
+
+                        # Default: return 0.0, cvename
                             
-                return "N/A", 'n/a'
+                #return "N/A", 'n/a'
+                return 0.0, cvename
         except Exception:
             return "Error", 'n/a'
 
