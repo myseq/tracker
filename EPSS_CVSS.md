@@ -18,17 +18,17 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2020-1938 | Apache Tomcat Improper Privilege Management Vulnerability | 94.47% | 100.00th | 9.8 |
 | CVE-2022-46169 | Cacti Command Injection Vulnerability | 94.47% | 100.00th | 9.8 |
 | CVE-2019-2725 | Oracle WebLogic Server, Injection | 94.47% | 100.00th | 9.8 |
-| CVE-2024-6670 | n/a | 94.47% | 100.00th | N/A |
-| CVE-2023-35078 | n/a | 94.47% | 100.00th | N/A |
-| CVE-2021-22205 | n/a | 94.47% | 100.00th | N/A |
-| CVE-2024-23897 | n/a | 94.47% | 100.00th | N/A |
-| CVE-2016-10033 | n/a | 94.47% | 100.00th | N/A |
-| CVE-2014-0160 | n/a | 94.46% | 100.00th | N/A |
-| CVE-2019-11510 | n/a | 94.46% | 100.00th | N/A |
-| CVE-2022-22963 | n/a | 94.46% | 100.00th | N/A |
-| CVE-2019-15107 | n/a | 94.46% | 99.99th | N/A |
-| CVE-2019-16662 | n/a | 94.46% | 99.99th | N/A |
-| CVE-2021-44529 | n/a | 94.46% | 99.99th | N/A |
-| CVE-2022-22947 | n/a | 94.46% | 99.99th | N/A |
-| CVE-2021-22005 | n/a | 94.46% | 99.99th | N/A |
+| CVE-2024-6670 | Progress WhatsUp Gold SQL Injection Vulnerability | 94.47% | 100.00th | 9.8 |
+| CVE-2023-35078 | Ivanti Endpoint Manager Mobile Authentication Bypass Vulnerability | 94.47% | 100.00th | 9.8 |
+| CVE-2021-22205 | n/a | 94.47% | 100.00th | Error |
+| CVE-2024-23897 | n/a | 94.47% | 100.00th | Error |
+| CVE-2016-10033 | n/a | 94.47% | 100.00th | Error |
+| CVE-2014-0160 | n/a | 94.46% | 100.00th | Error |
+| CVE-2019-11510 | n/a | 94.46% | 100.00th | Error |
+| CVE-2022-22963 | n/a | 94.46% | 100.00th | Error |
+| CVE-2019-15107 | n/a | 94.46% | 99.99th | Error |
+| CVE-2019-16662 | n/a | 94.46% | 99.99th | Error |
+| CVE-2021-44529 | n/a | 94.46% | 99.99th | Error |
+| CVE-2022-22947 | n/a | 94.46% | 99.99th | Error |
+| CVE-2021-22005 | n/a | 94.46% | 99.99th | Error |
 
