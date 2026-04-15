@@ -1,6 +1,8 @@
 import asyncio
 import aiohttp
 #import time
+from datetime import date
+from timeit import default_timer as timer
 
 epss_percentage = 0.50
 epss_percentile = 0.99
@@ -25,36 +27,11 @@ async def get_cvss_score(session, cve_id, semaphore):
                     if vulnerabilities:
                         cve_data = vulnerabilities[0].get('cve', {})
                         metrics = cve_data.get('metrics', {})
-                        #cvename = cve_data.get('cisaVulnerabilityName', 'n/a')
 
-                        #if (cvename := cve_data.get('cisaVulnerabilityName')):
-                        #    #print(f'Found cisaVulnerabilityName for {cve_id}.')
-
-
-                        #elif (descs := cve_data.get('descriptions')):
-                        #    print(f'Found description for {cve_id}.')
-                        #    cvename = 'n/a' # set default before checking language
-                        #    for desc in descs:
-                        #        if desc.get('lang') == 'en':
-                        #            cvename = f'Desc: {desc.get('value')}'
-                        #            break
-
-                        #else:
-                        #    cvename = 'n/a'
-                        #    print(f'Neither cisaVulnerabilityName nor description found for {cve_id}.')
-                        
                         # Try CISA name first; if not found, try to extract the English description; otherwise 'n/a'
                         cvename = (cve_data.get('cisaVulnerabilityName') or
                                    next((f"*Description: {d['value']}*" for d in cve_data.get('descriptions', []) if d.get('lang') == 'en'), 'n/a'))
 
-
-                        # Try to get CVSS v3.1, v3.0, or v2.0
-                        #v3 = metrics.get('cvssMetricV31') or metrics.get('cvssMetricV30')
-                        #if v3:
-                        #    return v3[0]['cvssData']['baseScore'], cvename
-                        #v2 = metrics.get('cvssMetricV2')
-                        #if v2:
-                        #    return v2[0]['cvssData']['baseScore'], cvename
 
                         # Priority 1: V3.1
                         if (cvss := metrics.get('cvssMetricV31')):
@@ -115,9 +92,16 @@ async def fetch_and_format_epss():
             print(f"Error fetching EPSS data: {e}")
 
 if __name__ == "__main__":
+
+    start = timer()
+
     print(f'## Top-{top} CVE\n')
     print(f'This shows the top-{top} vulnerabilities that have more than {epss_percentage *100:.2f}% chance of being exploited in the next 30 days.')
     
     # Run the entry point
     asyncio.run(fetch_and_format_epss())
+
+    end = timer()
+    print(f'*Last update:* ***{date.today().isoformat()}*** (completed in {end - start:.6f}s)')
+
 
