@@ -25,16 +25,27 @@ async def get_cvss_score(session, cve_id, semaphore):
                     if vulnerabilities:
                         cve_data = vulnerabilities[0].get('cve', {})
                         metrics = cve_data.get('metrics', {})
-                        cvename = cve_data.get('cisaVulnerabilityName', 'n/a')
+                        #cvename = cve_data.get('cisaVulnerabilityName', 'n/a')
+                        if (cvename := cve_data.get('cisaVulnerabilityName')):
+                            print(f'Found cisaVulnerabilityName for {cve_id}.')
+                        elif (descs := cve_data.get('descriptions')):
+                            print(f'Found description for {cve_id}.')
+                            for desc in descs:
+                                if desc.get('lang') == 'en':
+                                    cvename = f'Desc: {desc.get('value')}'
+                            cvename = 'n/a'
+                            print(f'Neither cisaVulnerabilityName nor description found for {cve_id}.')
+                        else:
+                            cvename = 'n/a'
+                            print(f'Neither cisaVulnerabilityName nor description found for {cve_id}.')
                         
                         # Try to get CVSS v3.1, v3.0, or v2.0
-                        v3 = metrics.get('cvssMetricV31') or metrics.get('cvssMetricV30')
-                        if v3:
-                            return v3[0]['cvssData']['baseScore'], cvename
-                        
-                        v2 = metrics.get('cvssMetricV2')
-                        if v2:
-                            return v2[0]['cvssData']['baseScore'], cvename
+                        #v3 = metrics.get('cvssMetricV31') or metrics.get('cvssMetricV30')
+                        #if v3:
+                        #    return v3[0]['cvssData']['baseScore'], cvename
+                        #v2 = metrics.get('cvssMetricV2')
+                        #if v2:
+                        #    return v2[0]['cvssData']['baseScore'], cvename
 
                         # Priority 1: V3.1
                         if (cvss := metrics.get('cvssMetricV31')):
