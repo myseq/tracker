@@ -1,27 +1,13 @@
 ## Top-25 CVE
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
-Found description for CVE-2017-8917.
-Found cisaVulnerabilityName for CVE-2023-23752.
-Found cisaVulnerabilityName for CVE-2017-1000353.
-Found cisaVulnerabilityName for CVE-2018-7600.
-Found cisaVulnerabilityName for CVE-2021-22986.
-Found cisaVulnerabilityName for CVE-2018-1000861.
-Found cisaVulnerabilityName for CVE-2018-13379.
-Found cisaVulnerabilityName for CVE-2019-3396.
-Found cisaVulnerabilityName for CVE-2019-17558.
-Found cisaVulnerabilityName for CVE-2020-1938.
-Found cisaVulnerabilityName for CVE-2022-46169.
-Found cisaVulnerabilityName for CVE-2019-2725.
-Found cisaVulnerabilityName for CVE-2023-35078.
-Found cisaVulnerabilityName for CVE-2024-6670.
 
 ### EPSS Priority Report (Top 25 of 3272 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
 | CVE-2023-23752 | Joomla! Improper Access Control Vulnerability | 94.51% | 100.00th | 5.3 |
-| CVE-2017-8917 | Desc: SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to execute arbitrary SQL commands via unspecified vectors. | 94.49% | 100.00th | 9.8 |
+| CVE-2017-8917 | *Description: SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to execute arbitrary SQL commands via unspecified vectors.* | 94.49% | 100.00th | 9.8 |
 | CVE-2017-1000353 | Jenkins Remote Code Execution Vulnerability | 94.49% | 100.00th | 9.8 |
 | CVE-2018-7600 | Drupal Core Remote Code Execution Vulnerability | 94.49% | 100.00th | 9.8 |
 | CVE-2021-22986 | F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability | 94.48% | 100.00th | 9.8 |
@@ -36,13 +22,13 @@ Found cisaVulnerabilityName for CVE-2024-6670.
 | CVE-2023-35078 | Ivanti Endpoint Manager Mobile Authentication Bypass Vulnerability | 94.47% | 100.00th | 9.8 |
 | CVE-2021-22205 | n/a | 94.47% | 100.00th | Error |
 | CVE-2024-23897 | n/a | 94.47% | 100.00th | Error |
-| CVE-2016-10033 | n/a | 94.47% | 100.00th | Error |
-| CVE-2014-0160 | n/a | 94.46% | 100.00th | Error |
-| CVE-2019-11510 | n/a | 94.46% | 100.00th | Error |
-| CVE-2022-22963 | n/a | 94.46% | 100.00th | Error |
-| CVE-2019-15107 | n/a | 94.46% | 99.99th | Error |
-| CVE-2019-16662 | n/a | 94.46% | 99.99th | Error |
-| CVE-2021-44529 | n/a | 94.46% | 99.99th | Error |
-| CVE-2022-22947 | n/a | 94.46% | 99.99th | Error |
-| CVE-2021-22005 | n/a | 94.46% | 99.99th | Error |
+| CVE-2016-10033 | PHPMailer Command Injection Vulnerability | 94.47% | 100.00th | 9.8 |
+| CVE-2014-0160 | OpenSSL Information Disclosure Vulnerability | 94.46% | 100.00th | 7.5 |
+| CVE-2019-11510 | Ivanti Pulse Connect Secure Arbitrary File Read Vulnerability | 94.46% | 100.00th | 10.0 |
+| CVE-2022-22963 | VMware Tanzu Spring Cloud Function Remote Code Execution Vulnerability | 94.46% | 100.00th | 9.8 |
+| CVE-2019-15107 | Webmin Command Injection Vulnerability | 94.46% | 99.99th | 9.8 |
+| CVE-2019-16662 | *Description: An issue was discovered in rConfig 3.9.2. An attacker can directly execute system commands by sending a GET request to ajaxServerSettingsChk.php because the rootUname parameter is passed to the exec function without filtering, which can lead to command execution.* | 94.46% | 99.99th | 9.8 |
+| CVE-2021-44529 | Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) Code Injection Vulnerability  | 94.46% | 99.99th | 9.8 |
+| CVE-2022-22947 | VMware Spring Cloud Gateway Code Injection Vulnerability | 94.46% | 99.99th | 10.0 |
+| CVE-2021-22005 | VMware vCenter Server File Upload Vulnerability | 94.46% | 99.99th | 9.8 |
 
