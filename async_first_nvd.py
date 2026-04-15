@@ -1,6 +1,6 @@
 import asyncio
 import aiohttp
-import time
+#import time
 
 epss_percentage = 0.50
 epss_percentile = 0.99
@@ -26,15 +26,18 @@ async def get_cvss_score(session, cve_id, semaphore):
                         cve_data = vulnerabilities[0].get('cve', {})
                         metrics = cve_data.get('metrics', {})
                         #cvename = cve_data.get('cisaVulnerabilityName', 'n/a')
+
                         if (cvename := cve_data.get('cisaVulnerabilityName')):
                             print(f'Found cisaVulnerabilityName for {cve_id}.')
+
                         elif (descs := cve_data.get('descriptions')):
                             print(f'Found description for {cve_id}.')
+                            cvename = 'n/a' # set default before checking language
                             for desc in descs:
                                 if desc.get('lang') == 'en':
                                     cvename = f'Desc: {desc.get('value')}'
-                            cvename = 'n/a'
-                            print(f'Neither cisaVulnerabilityName nor description found for {cve_id}.')
+                                    break
+
                         else:
                             cvename = 'n/a'
                             print(f'Neither cisaVulnerabilityName nor description found for {cve_id}.')
