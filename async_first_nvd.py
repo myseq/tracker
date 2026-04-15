@@ -102,6 +102,6 @@ if __name__ == "__main__":
     asyncio.run(fetch_and_format_epss())
 
     end = timer()
-    print(f'*Last update:* ***{date.today().isoformat()}*** (completed in {end - start:.6f}s)')
+    print(f'*Last update:* ***{date.today().isoformat()}*** *(completed in {end - start:.4f}s)*')
 
 
