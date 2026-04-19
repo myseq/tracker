@@ -20,8 +20,8 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2019-2725 | Oracle WebLogic Server, Injection | 94.47% | 100.00th | 9.8 |
 | CVE-2024-6670 | n/a | 94.47% | 100.00th | Error |
 | CVE-2023-35078 | n/a | 94.47% | 100.00th | Error |
-| CVE-2021-22205 | GitLab Community and Enterprise Editions Remote Code Execution Vulnerability | 94.47% | 100.00th | 10.0 |
-| CVE-2024-23897 | Jenkins Command Line Interface (CLI) Path Traversal Vulnerability | 94.47% | 100.00th | 9.8 |
+| CVE-2021-22205 | n/a | 94.47% | 100.00th | Error |
+| CVE-2024-23897 | n/a | 94.47% | 100.00th | Error |
 | CVE-2016-10033 | n/a | 94.47% | 100.00th | Error |
 | CVE-2014-0160 | n/a | 94.46% | 100.00th | Error |
 | CVE-2019-11510 | n/a | 94.46% | 100.00th | Error |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2022-22947 | n/a | 94.46% | 99.99th | Error |
 | CVE-2021-22005 | n/a | 94.46% | 99.99th | Error |
 
-*Last update:* ***2026-04-18*** *(completed in 9.3141s)*
+*Last update:* ***2026-04-19*** *(completed in 8.6487s)*
