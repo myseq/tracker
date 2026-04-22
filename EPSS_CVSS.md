@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3283 Total CVEs)
+### EPSS Priority Report (Top 25 of 3287 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -23,13 +23,13 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2021-22205 | n/a | 94.47% | 100.00th | Error |
 | CVE-2024-23897 | n/a | 94.47% | 100.00th | Error |
 | CVE-2016-10033 | n/a | 94.47% | 100.00th | Error |
+| CVE-2021-44228 | n/a | 94.47% | 100.00th | Error |
 | CVE-2014-0160 | n/a | 94.46% | 100.00th | Error |
 | CVE-2019-11510 | n/a | 94.46% | 100.00th | Error |
-| CVE-2022-22963 | n/a | 94.46% | 100.00th | Error |
+| CVE-2022-22963 | n/a | 94.46% | 99.99th | Error |
 | CVE-2019-15107 | n/a | 94.46% | 99.99th | Error |
 | CVE-2019-16662 | n/a | 94.46% | 99.99th | Error |
 | CVE-2021-44529 | n/a | 94.46% | 99.99th | Error |
 | CVE-2022-22947 | n/a | 94.46% | 99.99th | Error |
-| CVE-2023-44487 | n/a | 94.46% | 99.99th | Error |
 
-*Last update:* ***2026-04-21*** *(completed in 8.3302s)*
+*Last update:* ***2026-04-22*** *(completed in 8.6460s)*
