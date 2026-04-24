@@ -3,7 +3,7 @@ name: Updates CISA KEV List
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 21 * * *' # Runs daily at 21:43 UTC
+    - cron: '43 21 * * *'
 
 concurrency:
   group: kev-update
@@ -12,7 +12,6 @@ concurrency:
 jobs:
   update-kev:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
@@ -20,17 +19,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Fetch full history to ensure git operations work correctly
           fetch-depth: 0
 
       - name: Fetch CISA KEV feed
         run: |
           set -euo pipefail
-          curl -fsSL \
-            https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json \
-            -o kev.json
-          
-          # Fail if the file is empty or missing
+          curl -fsSL https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json -o kev.json
           test -s kev.json
 
       - name: Generate KEV markdown
@@ -42,7 +36,6 @@ jobs:
             echo ""
             echo "| CVE ID | Vendor / Project | Product | Date Added |"
             echo "| --- | --- | --- | --- |"
-            
             jq -r '
               .vulnerabilities
               | sort_by(.dateAdded)
@@ -50,7 +43,6 @@ jobs:
               | .[0:5][]
               | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) |"
             ' kev.json
-            
             echo ""
             echo "> *Last update: ${TODAY} (UTC)*"
           } > kev_section.md
@@ -59,30 +51,22 @@ jobs:
         run: |
           set -euo pipefail
           
-          # Validation: Ensure tags exist in README
+          # Safety Check
           if ! grep -q "" README.md || ! grep -q "" README.md; then
-            echo "Error: KEV tags missing in README.md"
+            echo "Error: Markers missing in README.md"
             exit 1
           fi
 
-          # Use awk to inject the content between tags
-          awk '
-            BEGIN {in_block=0}
-            // {
-              print
-              system("cat kev_section.md")
-              in_block=1
-              next
-            }
-            // {
-              in_block=0
-              print
-              next
-            }
-            !in_block { print }
-          ' README.md > README.tmp
+          # 1. Get everything BEFORE the start tag (including the tag)
+          sed -n '1,//p' README.md > README.new
           
-          mv README.tmp README.md
+          # 2. Add the NEW content
+          cat kev_section.md >> README.new
+          
+          # 3. Get everything AFTER the end tag (including the tag)
+          sed -n '//,$p' README.md >> README.new
+          
+          mv README.new README.md
 
       - name: Commit and push changes
         run: |
@@ -91,14 +75,10 @@ jobs:
 
           git add README.md
           
-          # Only commit and push if there are actual changes
           if ! git diff --cached --quiet; then
             git commit -m "Update latest CISA KEV entries"
-            
-            # Pull any remote changes (e.g., from other runs) before pushing
-            git pull --rebase origin $(git branch --show-current)
-            
+            git pull --rebase origin main
             git push
           else
-            echo "No changes detected. Skipping update."
+            echo "No changes detected."
           fi
