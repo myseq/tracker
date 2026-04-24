@@ -75,27 +75,14 @@ jobs:
 
           mv README.tmp README.md
 
-      - name: Debug Output
+      - name: Commit changes if any
         run: |
-          echo "--- KEV Section Generated ---"
-          cat kev_section.md
-          echo "--- Final README Preview ---"
-          cat README.md
+          git diff --quiet && echo "No changes detected" && exit 0
 
-      - name: Commit and push changes
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Add the file first
           git add README.md
-
-          # Only commit and push if there's a difference
-          if ! git diff --cached --quite; then
-            git commit -m "Update latest CISA KEV entries"
-            git push
-          else
-            echo "No changes to commit"
-
-
+          git commit -m "Update latest CISA KEV entries"
+          git push
 
