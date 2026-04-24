@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: '43 21 * * *'
 
+# Add this section here
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: kev-update
   cancel-in-progress: true
