@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: '43 21 * * *'
 
-# Add this section here
+# Opt-in to Node.js 24 to remove the deprecation warning
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -28,13 +28,15 @@ jobs:
       - name: Fetch CISA KEV feed
         run: |
           set -euo pipefail
+          echo "Fetching latest KEV JSON..."
           curl -fsSL https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json -o kev.json
-          test -s kev.json
+          test -s kev.json || (echo "Error: Downloaded file is empty" && exit 1)
 
       - name: Generate KEV markdown
         run: |
           set -euo pipefail
           TODAY=$(date -u +%Y-%m-%d)
+          echo "Generating Markdown table..."
           {
             echo "## Latest 5 CISA KEV Entries"
             echo ""
@@ -55,34 +57,42 @@ jobs:
         run: |
           set -euo pipefail
           
-          # Safety Check
-          if ! grep -q "" README.md || ! grep -q "" README.md; then
-            echo "Error: Markers missing in README.md"
+          echo "Checking for markers in README.md..."
+          if ! grep -q "" README.md; then
+            echo "::error::Missing in README.md"
+            exit 1
+          fi
+          if ! grep -q "" README.md; then
+            echo "::error::Missing in README.md"
             exit 1
           fi
 
-          # 1. Get everything BEFORE the start tag (including the tag)
+          echo "Reconstructing README.md..."
+          # 1. Get everything BEFORE the start tag
           sed -n '1,//p' README.md > README.new
-          
           # 2. Add the NEW content
           cat kev_section.md >> README.new
-          
-          # 3. Get everything AFTER the end tag (including the tag)
+          # 3. Get everything AFTER the end tag
           sed -n '//,$p' README.md >> README.new
           
           mv README.new README.md
 
       - name: Commit and push changes
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add README.md
           
           if ! git diff --cached --quiet; then
+            echo "Changes detected, committing..."
             git commit -m "Update latest CISA KEV entries"
+            # Rebase to handle any upstream changes
             git pull --rebase origin main
             git push
           else
-            echo "No changes detected."
+            echo "No changes detected in the KEV list. Skipping push."
           fi
+
+
