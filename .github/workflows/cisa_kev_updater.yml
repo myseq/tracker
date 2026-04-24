@@ -3,7 +3,7 @@ name: Updates CISA KEV List
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 22 * * *' # UTC +0 time
+    - cron: '43 21 * * *' # UTC +0 time
 
 concurrency:
   group: kev-update
