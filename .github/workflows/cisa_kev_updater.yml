@@ -91,7 +91,7 @@ jobs:
           git add README.md
 
           # Only commit and push if there's a difference
-          if ! git diff --cached --quite; then
+          if ! git diff --cached --quiet; then
             git commit -m "Update latest CISA KEV entries"
             git push
           else
