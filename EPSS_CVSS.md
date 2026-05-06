@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3309 Total CVEs)
+### EPSS Priority Report (Top 25 of 3311 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -22,14 +22,14 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2021-22205 | n/a | 94.47% | 100.00th | Error |
 | CVE-2024-23897 | n/a | 94.47% | 100.00th | Error |
 | CVE-2014-0160 | n/a | 94.46% | 100.00th | Error |
-| CVE-2019-11510 | Ivanti Pulse Connect Secure Arbitrary File Read Vulnerability | 94.46% | 100.00th | 10.0 |
+| CVE-2019-11510 | n/a | 94.46% | 100.00th | Error |
 | CVE-2022-22963 | n/a | 94.46% | 100.00th | Error |
-| CVE-2019-15107 | Webmin Command Injection Vulnerability | 94.46% | 99.99th | 9.8 |
+| CVE-2019-15107 | n/a | 94.46% | 99.99th | Error |
 | CVE-2019-16662 | n/a | 94.46% | 99.99th | Error |
-| CVE-2021-44529 | Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) Code Injection Vulnerability  | 94.46% | 100.00th | 9.8 |
+| CVE-2021-44529 | n/a | 94.46% | 100.00th | Error |
 | CVE-2022-22947 | n/a | 94.46% | 100.00th | Error |
-| CVE-2023-44487 | HTTP/2 Rapid Reset Attack Vulnerability | 94.46% | 99.99th | 7.5 |
+| CVE-2023-44487 | n/a | 94.46% | 99.99th | Error |
 | CVE-2021-22005 | n/a | 94.46% | 99.99th | Error |
-| CVE-2022-44877 | CWP Control Web Panel OS Command Injection Vulnerability | 94.46% | 99.99th | 9.8 |
+| CVE-2022-44877 | n/a | 94.46% | 99.99th | Error |
 
-*Last update:* ***2026-05-05*** *(completed in 9.1222s)*
+*Last update:* ***2026-05-06*** *(completed in 8.7796s)*
