@@ -2,14 +2,14 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3328 Total CVEs)
+### EPSS Priority Report (Top 25 of 3333 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
-| CVE-2023-23752 | Joomla! Improper Access Control Vulnerability | 94.52% | 100.00th | 5.3 |
+| CVE-2023-23752 | n/a | 94.52% | 100.00th | Error |
 | CVE-2017-8917 | *Description: SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to execute arbitrary SQL commands via unspecified vectors.* | 94.51% | 100.00th | 9.8 |
-| CVE-2018-7600 | Drupal Core Remote Code Execution Vulnerability | 94.49% | 100.00th | 9.8 |
-| CVE-2021-22986 | F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability | 94.48% | 100.00th | 9.8 |
+| CVE-2018-7600 | n/a | 94.49% | 100.00th | Error |
+| CVE-2021-22986 | n/a | 94.48% | 100.00th | Error |
 | CVE-2018-1000861 | Jenkins Stapler Web Framework Deserialization of Untrusted Data Vulnerability | 94.48% | 100.00th | 9.8 |
 | CVE-2017-1000353 | Jenkins Remote Code Execution Vulnerability | 94.48% | 100.00th | 9.8 |
 | CVE-2018-13379 | Fortinet FortiOS SSL VPN Path Traversal Vulnerability | 94.47% | 100.00th | 9.1 |
@@ -18,8 +18,8 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2020-1938 | Apache Tomcat Improper Privilege Management Vulnerability | 94.47% | 100.00th | 9.8 |
 | CVE-2019-2725 | Oracle WebLogic Server, Injection | 94.47% | 100.00th | 9.8 |
 | CVE-2024-6670 | Progress WhatsUp Gold SQL Injection Vulnerability | 94.47% | 100.00th | 9.8 |
-| CVE-2022-46169 | n/a | 94.47% | 100.00th | Error |
-| CVE-2021-22205 | n/a | 94.47% | 100.00th | Error |
+| CVE-2022-46169 | Cacti Command Injection Vulnerability | 94.47% | 100.00th | 9.8 |
+| CVE-2021-22205 | GitLab Community and Enterprise Editions Remote Code Execution Vulnerability | 94.47% | 100.00th | 10.0 |
 | CVE-2024-23897 | n/a | 94.47% | 100.00th | Error |
 | CVE-2016-10033 | n/a | 94.47% | 100.00th | Error |
 | CVE-2014-0160 | n/a | 94.46% | 100.00th | Error |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2021-22005 | n/a | 94.46% | 99.99th | Error |
 | CVE-2022-44877 | n/a | 94.46% | 99.99th | Error |
 
-*Last update:* ***2026-05-12*** *(completed in 8.5501s)*
+*Last update:* ***2026-05-13*** *(completed in 23.9748s)*
