@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3340 Total CVEs)
+### EPSS Priority Report (Top 25 of 3341 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -18,8 +18,8 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2020-1938 | Apache Tomcat Improper Privilege Management Vulnerability | 94.47% | 100.00th | 9.8 |
 | CVE-2019-2725 | Oracle WebLogic Server, Injection | 94.47% | 100.00th | 9.8 |
 | CVE-2024-6670 | Progress WhatsUp Gold SQL Injection Vulnerability | 94.47% | 100.00th | 9.8 |
-| CVE-2022-46169 | Cacti Command Injection Vulnerability | 94.47% | 100.00th | 9.8 |
-| CVE-2021-22205 | GitLab Community and Enterprise Editions Remote Code Execution Vulnerability | 94.47% | 100.00th | 10.0 |
+| CVE-2022-46169 | n/a | 94.47% | 100.00th | Error |
+| CVE-2021-22205 | n/a | 94.47% | 100.00th | Error |
 | CVE-2024-23897 | n/a | 94.47% | 100.00th | Error |
 | CVE-2016-10033 | n/a | 94.47% | 100.00th | Error |
 | CVE-2014-0160 | n/a | 94.46% | 100.00th | Error |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2021-22005 | n/a | 94.46% | 99.99th | Error |
 | CVE-2022-44877 | n/a | 94.46% | 99.99th | Error |
 
-*Last update:* ***2026-05-15*** *(completed in 32.0590s)*
+*Last update:* ***2026-05-16*** *(completed in 8.8851s)*
