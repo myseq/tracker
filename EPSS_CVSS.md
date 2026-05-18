@@ -18,7 +18,7 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2020-1938 | Apache Tomcat Improper Privilege Management Vulnerability | 94.47% | 100.00th | 9.8 |
 | CVE-2019-2725 | Oracle WebLogic Server, Injection | 94.47% | 100.00th | 9.8 |
 | CVE-2024-6670 | Progress WhatsUp Gold SQL Injection Vulnerability | 94.47% | 100.00th | 9.8 |
-| CVE-2022-46169 | n/a | 94.47% | 100.00th | Error |
+| CVE-2022-46169 | Cacti Command Injection Vulnerability | 94.47% | 100.00th | 9.8 |
 | CVE-2021-22205 | n/a | 94.47% | 100.00th | Error |
 | CVE-2024-23897 | n/a | 94.47% | 100.00th | Error |
 | CVE-2016-10033 | n/a | 94.47% | 100.00th | Error |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2021-22005 | n/a | 94.46% | 99.99th | Error |
 | CVE-2022-44877 | n/a | 94.46% | 99.99th | Error |
 
-*Last update:* ***2026-05-17*** *(completed in 9.0057s)*
+*Last update:* ***2026-05-18*** *(completed in 15.0980s)*
