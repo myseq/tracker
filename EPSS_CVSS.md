@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3380 Total CVEs)
+### EPSS Priority Report (Top 25 of 3387 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -20,16 +20,16 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2019-2725 | Oracle WebLogic Server, Injection | 94.47% | 100.00th | 9.8 |
 | CVE-2024-6670 | n/a | 94.47% | 100.00th | Error |
 | CVE-2021-22205 | n/a | 94.47% | 100.00th | Error |
-| CVE-2024-23897 | n/a | 94.47% | 100.00th | Error |
+| CVE-2024-23897 | Jenkins Command Line Interface (CLI) Path Traversal Vulnerability | 94.47% | 100.00th | 9.8 |
 | CVE-2014-0160 | n/a | 94.46% | 100.00th | Error |
 | CVE-2019-11510 | n/a | 94.46% | 100.00th | Error |
-| CVE-2022-22963 | n/a | 94.46% | 100.00th | Error |
-| CVE-2019-16662 | n/a | 94.46% | 100.00th | Error |
-| CVE-2021-44529 | n/a | 94.46% | 100.00th | Error |
-| CVE-2022-22947 | n/a | 94.46% | 100.00th | Error |
-| CVE-2019-15107 | n/a | 94.46% | 99.99th | Error |
-| CVE-2021-22005 | n/a | 94.46% | 99.99th | Error |
-| CVE-2022-44877 | n/a | 94.46% | 99.99th | Error |
-| CVE-2022-1388 | n/a | 94.46% | 99.99th | Error |
+| CVE-2022-22963 | VMware Tanzu Spring Cloud Function Remote Code Execution Vulnerability | 94.46% | 100.00th | 9.8 |
+| CVE-2019-16662 | *Description: An issue was discovered in rConfig 3.9.2. An attacker can directly execute system commands by sending a GET request to ajaxServerSettingsChk.php because the rootUname parameter is passed to the exec function without filtering, which can lead to command execution.* | 94.46% | 100.00th | 9.8 |
+| CVE-2021-44529 | Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) Code Injection Vulnerability  | 94.46% | 100.00th | 9.8 |
+| CVE-2022-22947 | VMware Spring Cloud Gateway Code Injection Vulnerability | 94.46% | 100.00th | 10.0 |
+| CVE-2019-15107 | Webmin Command Injection Vulnerability | 94.46% | 99.99th | 9.8 |
+| CVE-2021-22005 | VMware vCenter Server File Upload Vulnerability | 94.46% | 99.99th | 9.8 |
+| CVE-2022-44877 | CWP Control Web Panel OS Command Injection Vulnerability | 94.46% | 99.99th | 9.8 |
+| CVE-2022-1388 | F5 BIG-IP Missing Authentication Vulnerability | 94.46% | 99.99th | 9.8 |
 
-*Last update:* ***2026-06-04*** *(completed in 8.5011s)*
+*Last update:* ***2026-06-05*** *(completed in 9.9965s)*
