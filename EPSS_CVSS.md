@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2022-1388 | n/a | 94.46% | 99.99th | Error |
 | CVE-2019-0708 | n/a | 94.45% | 99.99th | Error |
 
-*Last update:* ***2026-06-06*** *(completed in 9.0299s)*
+*Last update:* ***2026-06-07*** *(completed in 9.2275s)*
