@@ -30,7 +30,7 @@ jobs:
           echo -e "| --- | --- | --- | --- |" >> latest_kev.md
           
           # Use jq to get the 7 most recent CVEs by dateAdded
-          jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:5] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) |"' kev.json >> latest_kev.md
+          jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:7] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) |"' kev.json >> latest_kev.md
           echo -e "\n\n" >> latest_kev.md
           echo -e "> *Last update: $TODAY*" >> latest_kev.md
 
@@ -69,7 +69,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
+          git commit -m "Updated README with latest CISA KEV entries." 
           git add kev.json
-          git commit -m "Update latest CISA KEV entries" || exit 0
+          git commit -m "Latest KEV_catalog.json" 
           git push
 
