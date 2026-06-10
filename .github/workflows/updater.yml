@@ -5,7 +5,7 @@ on:
     - cron: '43 21 * * *' # Runs daily 
 
 jobs:
-  update-readme:
+  checking-cisa-kev:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -71,6 +71,6 @@ jobs:
           git add README.md
           git commit -m "Updated README with latest CISA KEV entries." 
           git add kev.json
-          git commit -m "Latest KEV_catalog.json" 
+          git commit -m "Latest KEV_catalog.json"  || exit 0
           git push
 
