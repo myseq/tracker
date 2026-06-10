@@ -1,7 +1,7 @@
 # Myseq Tracker
 
 
-## Latest 5 CISA KEV Entries
+## Latest 7 CISA KEV Entries
 
 
 | CVE ID | Vendor/Project | Product | Date Added |
@@ -14,4 +14,4 @@
 
 
 
-> *Last update: 2026-06-09*
+> *Last update: 2026-06-10*
