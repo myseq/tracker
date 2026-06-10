@@ -21,42 +21,15 @@ jobs:
           
       - name: Parsing JSON
         run: |
+          # Use jq to get the 5 most recent CVEs by dateAdded
           TODAY=$(date +%Y-%m-%d)
-
-          # Create the Markdown table header
-          echo -e "# Myseq Tracker\n\n" > latest_kev.md
-          echo -e "## Latest 7 CISA KEV Entries\n\n" >> latest_kev.md
+          echo -e "# Myseq Tracker\n\n" >> latest_kev.md
+          echo -e "## Latest 5 CISA KEV Entries\n\n" >> latest_kev.md
           echo -e "| CVE ID | Vendor/Project | Product | Date Added |" >> latest_kev.md
           echo -e "| --- | --- | --- | --- |" >> latest_kev.md
-          
-          # Use jq to get the 7 most recent CVEs by dateAdded
           jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:5] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) |"' kev.json >> latest_kev.md
           echo -e "\n\n" >> latest_kev.md
           echo -e "> *Last update: $TODAY*" >> latest_kev.md
-
-      - name: Count and Publish Daily CVEs
-        run: |
-          TODAY=$(date +'%Y-%m-%d')
-          COUNT=$(jq --arg date "$TODAY" '[.vulnerabilities[] | select(.dateAdded == $date)] | length' kev.json)
-          
-          if [ "$COUNT" -gt 0 ]; then
-            # Format message for pluralization
-            if [ "$COUNT" -eq 1 ]; then
-              MESSAGE="⚠️ **$COUNT CVE was added today ($TODAY)!** Review immediate patching requirements."
-            else
-              MESSAGE="⚠️ **$COUNT CVEs were added today ($TODAY)!** Review immediate patching requirements."
-            fi
-            
-            # Post to Summary and fail the build
-            echo "### 🛑 High Alert: New Exploited Vulnerabilities" >> $GITHUB_STEP_SUMMARY
-            echo "$MESSAGE" >> $GITHUB_STEP_SUMMARY
-            echo "::error title=New KEV Detected::Found $COUNT new vulnerabilities added today."
-            #exit 1
-          else
-            # Keep it green if nothing is found
-            echo "### ✅ Daily KEV Update" >> $GITHUB_STEP_SUMMARY
-            echo "No new CVEs were added today ($TODAY)." >> $GITHUB_STEP_SUMMARY
-          fi
 
       - name: Update README
         run: |
@@ -68,7 +41,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git add kev.json
           git commit -m "Update latest CISA KEV entries" || exit 0
           git push
 
