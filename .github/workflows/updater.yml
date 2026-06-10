@@ -24,7 +24,7 @@ jobs:
           TODAY=$(date +%Y-%m-%d)
 
           # Create the Markdown table header
-          echo -e "# Myseq Tracker\n\n" > latest_kev.md
+          echo -e "# Myseq Tracker\n\n" >> latest_kev.md
           echo -e "## Latest 7 CISA KEV Entries\n\n" >> latest_kev.md
           echo -e "| CVE ID | Vendor/Project | Product | Date Added |" >> latest_kev.md
           echo -e "| --- | --- | --- | --- |" >> latest_kev.md
@@ -33,11 +33,11 @@ jobs:
           jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:7] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) |"' kev.json >> latest_kev.md
           echo -e "\n\n" >> latest_kev.md
           echo -e "> *Last update: $TODAY*" >> latest_kev.md
+          cat latest_kev.md >> $GITHUB_STEP_SUMMARY
 
       - name: Count and Publish Daily CVEs
         run: |
           TODAY=$(date +'%Y-%m-%d')
-          TODAY="2026-06-09"
           COUNT=$(jq --arg date "$TODAY" '[.vulnerabilities[] | select(.dateAdded == $date)] | length' kev.json)
           
           if [ "$COUNT" -gt 0 ]; then
