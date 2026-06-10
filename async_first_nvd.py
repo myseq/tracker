@@ -19,7 +19,7 @@ async def get_cvss_score(session, cve_id, semaphore):
     async with semaphore:
         try:
             # Respectful delay for NVD (adjust if using an API key)
-            await asyncio.sleep(0.6) 
+            await asyncio.sleep(0.7) 
             async with session.get(nvd_url, timeout=10) as response:
                 if response.status == 200:
                     data = await response.json()
