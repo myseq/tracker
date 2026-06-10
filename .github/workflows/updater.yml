@@ -37,6 +37,7 @@ jobs:
       - name: Count and Publish Daily CVEs
         run: |
           TODAY=$(date +'%Y-%m-%d')
+          TODAY="2026-06-09"
           COUNT=$(jq --arg date "$TODAY" '[.vulnerabilities[] | select(.dateAdded == $date)] | length' kev.json)
           
           if [ "$COUNT" -gt 0 ]; then
