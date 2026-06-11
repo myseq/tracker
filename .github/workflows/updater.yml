@@ -21,12 +21,13 @@ jobs:
           
       - name: Parsing JSON
         run: |
+          echo -e "# Myseq Tracker\n\n" > latest_kev.md
           TODAY=$(date +%Y-%m-%d)
           TOTAL=$(jq -r '.count' kev.json)
           LAST=$(jq -r '.catalogVersion' kev.json)
+          LCOUNT=$(jq --arg date "$LAST" '[.vulnerabilities[] | select(.dateAdded == $date)] | length' kev.json)
 
           # Create the Markdown table header
-          echo -e "# Myseq Tracker\n\n" >> latest_kev.md
           echo -e "## Latest 7 CISA KEV Entries (Total: $TOTAL)\n\n" >> latest_kev.md
           echo -e "| CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |" >> latest_kev.md
           echo -e "| --- | --- | --- | --- | --- |" >> latest_kev.md
@@ -34,9 +35,12 @@ jobs:
           # Use jq to get the 7 most recent CVEs by dateAdded
           jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:7] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) | \(.knownRansomwareCampaignUse) |"' kev.json >> latest_kev.md
           echo -e "\n\n" >> latest_kev.md
-          echo -e "> *Last update:* ***$LAST***\n\n" >> latest_kev.md
+          echo -e "> *Last update:* ***$LAST*** *(added $LCOUNT CVE)* \n\n" >> latest_kev.md
           echo -e "> *Last check:* ***$TODAY***\n\n" >> latest_kev.md
-          cat latest_kev.md >> $GITHUB_STEP_SUMMARY
+          #cat latest_kev.md >> $GITHUB_STEP_SUMMARY
+          echo -e "Last check: $TODAY" >> $GITHUB_STEP_SUMMARY
+          echo -e "Last update: $LAST ($LCOUNT added)" >> $GITHUB_STEP_SUMMARY
+          echo -e "Last check: $TODAY" >> $GITHUB_SUMMARY
 
       - name: Update README
         run: |
