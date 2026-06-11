@@ -26,8 +26,8 @@ jobs:
           # Create the Markdown table header
           echo -e "# Myseq Tracker\n\n" >> latest_kev.md
           echo -e "## Latest 7 CISA KEV Entries\n\n" >> latest_kev.md
-          echo -e "| CVE ID | Vendor/Project | Product | Date Added |" >> latest_kev.md
-          echo -e "| --- | --- | --- | --- |" >> latest_kev.md
+          echo -e "| CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |" >> latest_kev.md
+          echo -e "| --- | --- | --- | --- | --- |" >> latest_kev.md
           
           # Use jq to get the 7 most recent CVEs by dateAdded
           jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:7] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) | \(.knownRansomwareCampaignUse) |"' kev.json >> latest_kev.md
