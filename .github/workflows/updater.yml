@@ -37,14 +37,12 @@ jobs:
           echo -e "\n\n" >> latest_kev.md
           echo -e "> *Last update:* ***$LAST*** *(added $LCOUNT CVE)* \n\n" >> latest_kev.md
           echo -e "> *Last check:* ***$TODAY***\n\n" >> latest_kev.md
-          #cat latest_kev.md >> $GITHUB_STEP_SUMMARY
           echo -e "Last check: $TODAY" >> $GITHUB_STEP_SUMMARY
           echo -e "Last update: $LAST ($LCOUNT added)" >> $GITHUB_STEP_SUMMARY
 
       - name: Update README
         run: |
-          # Replace content between markers in README.md or just overwrite it
-          #cat latest_kev.md > README.md
+          # Update latest content into README.md 
           mv latest_kev.md README.md
 
       - name: Commit and Push
@@ -53,8 +51,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Updated with latest CISA KEV entries."  || exit 0
-          #git add kev.json
-          #git commit -m "Latest KEV_catalog.json"  || exit 0
           git push
 
       - name: Count and Publish Daily CVEs
