@@ -40,7 +40,6 @@ jobs:
           #cat latest_kev.md >> $GITHUB_STEP_SUMMARY
           echo -e "Last check: $TODAY" >> $GITHUB_STEP_SUMMARY
           echo -e "Last update: $LAST ($LCOUNT added)" >> $GITHUB_STEP_SUMMARY
-          echo -e "Last check: $TODAY" >> $GITHUB_SUMMARY
 
       - name: Update README
         run: |
