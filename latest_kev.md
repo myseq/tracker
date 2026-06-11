@@ -16,7 +16,7 @@
 
 
 
-> *Last update:* ***2026.06.09*** *(added 0 CVE)* 
+> *Last update:* ***2026-06-09*** *(added 3 CVE)* 
 
 
 > *Last check:* ***2026-06-11***
