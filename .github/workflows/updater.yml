@@ -29,7 +29,7 @@ jobs:
 
           # Create the Markdown table header
           echo -e "## Latest 7 CISA KEV Entries (Total: $TOTAL)\n\n" >> latest_kev.md
-          echo -e "> *Last update:* ***$LAST*** *(added $LCOUNT CVE)* \n\n" >> latest_kev.md
+          echo -e "*Last update:* ***$LAST*** *(added $LCOUNT CVE)* \n\n" >> latest_kev.md
           echo -e "| CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |" >> latest_kev.md
           echo -e "| --- | --- | --- | --- | --- |" >> latest_kev.md
           
