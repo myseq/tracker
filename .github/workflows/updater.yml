@@ -36,6 +36,7 @@ jobs:
           # Use jq to get the 7 most recent CVEs by dateAdded
           jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:7] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) | \(.knownRansomwareCampaignUse) |"' kev.json >> latest_kev.md
           echo -e "\n\n" >> latest_kev.md
+          echo -e "> [!NOTE]\n\n" >> latest_kev.md
           echo -e "> *Last check:* ***$TODAY***\n\n" >> latest_kev.md
           echo -e "Last check: $TODAY" >> $GITHUB_STEP_SUMMARY
           echo -e "Last update: $LAST ($LCOUNT added)" >> $GITHUB_STEP_SUMMARY
