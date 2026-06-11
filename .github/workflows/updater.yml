@@ -24,7 +24,7 @@ jobs:
           echo -e "# Myseq Tracker\n\n" > latest_kev.md
           TODAY=$(date +%Y-%m-%d)
           TOTAL=$(jq -r '.count' kev.json)
-          LAST=$(jq -r '.catalogVersion' kev.json)
+          LAST=$(jq -r '.catalogVersion' kev.json | sed 's/\./-/g')
           LCOUNT=$(jq --arg date "$LAST" '[.vulnerabilities[] | select(.dateAdded == $date)] | length' kev.json)
 
           # Create the Markdown table header
