@@ -40,6 +40,16 @@ jobs:
           # Replace content between markers in README.md or just overwrite it
           cat latest_kev.md > README.md
 
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Updated README with latest CISA KEV entries."  || exit 0
+          git add kev.json
+          git commit -m "Latest KEV_catalog.json"  || exit 0
+          git push
+
       - name: Count and Publish Daily CVEs
         run: |
           TODAY=$(date +'%Y-%m-%d')
@@ -57,20 +67,10 @@ jobs:
             echo "### 🛑 High Alert: New Exploited Vulnerabilities" >> $GITHUB_STEP_SUMMARY
             echo "$MESSAGE" >> $GITHUB_STEP_SUMMARY
             echo "::error title=New KEV Detected::Found $COUNT new vulnerabilities added today."
-            #exit 1
+            exit 1
           else
             # Keep it green if nothing is found
             echo "### ✅ Daily KEV Update" >> $GITHUB_STEP_SUMMARY
             echo "No new CVEs were added today ($TODAY)." >> $GITHUB_STEP_SUMMARY
           fi
-
-      - name: Commit and Push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Updated README with latest CISA KEV entries."  || exit 0
-          git add kev.json
-          git commit -m "Latest KEV_catalog.json"  || exit 0
-          git push
 
