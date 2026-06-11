@@ -44,7 +44,8 @@ jobs:
       - name: Update README
         run: |
           # Replace content between markers in README.md or just overwrite it
-          cat latest_kev.md > README.md
+          #cat latest_kev.md > README.md
+          mv latest_kev.md README.md
 
       - name: Commit and Push
         run: |
