@@ -1,25 +1,25 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1623)
+## Latest 7 CISA KEV Entries (Total: 1627)
 
 
-*Last update:* ***2026-06-18*** *(added 1 CVE)* 
+*Last update:* ***2026-06-23*** *(added 4 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-34908 | Ubiquiti | UniFi OS | 2026-06-23 | Unknown |
+| CVE-2026-34909 | Ubiquiti | UniFi OS | 2026-06-23 | Unknown |
+| CVE-2026-34910 | Ubiquiti | UniFi OS | 2026-06-23 | Unknown |
+| CVE-2025-67038 | Lantronix | EDS5000 | 2026-06-23 | Unknown |
 | CVE-2026-20253 | Splunk | Enterprise | 2026-06-18 | Unknown |
 | CVE-2026-48907 | Widget Factory | Joomla Content Editor  | 2026-06-16 | Unknown |
 | CVE-2026-20262 | Cisco | Catalyst SD-WAN Manager | 2026-06-15 | Unknown |
-| CVE-2026-54420 | LiteSpeed | cPanel Plugin | 2026-06-15 | Unknown |
-| CVE-2026-35273 | Oracle |  PeopleSoft Enterprise PeopleTools | 2026-06-12 | Known |
-| CVE-2026-10520 | Ivanti | Sentry | 2026-06-11 | Unknown |
-| CVE-2026-20245 | Cisco | Catalyst SD-WAN Manager | 2026-06-09 | Unknown |
 
 
 
 > [!NOTE]
-> *Last check:* ***2026-06-22***
+> *Last check:* ***2026-06-23***
 
 
