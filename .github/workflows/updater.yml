@@ -2,7 +2,7 @@ name: Update CISA KEV List
 on:
   workflow_dispatch: # Allows manual trigger
   schedule:
-    - cron: '43 21 * * *' # Runs daily 
+    - cron: '33 22 * * *' # Runs daily 
 
 jobs:
   checking-cisa-kev:

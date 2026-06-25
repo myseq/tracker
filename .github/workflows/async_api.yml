@@ -6,7 +6,7 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 22 * * *' # UTC +0 time
+    - cron: '1 23 * * *' # UTC +0 time
 
 jobs:
   CISA-KEV:
