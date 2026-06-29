@@ -2,19 +2,19 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3442 Total CVEs)
+### EPSS Priority Report (Top 25 of 3443 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
-| CVE-2014-0160 | n/a | 100.00% | 100.00th | Error |
-| CVE-2014-6271 | n/a | 100.00% | 99.99th | Error |
-| CVE-2017-5638 | n/a | 100.00% | 99.99th | Error |
-| CVE-2017-9841 | n/a | 100.00% | 99.99th | Error |
-| CVE-2021-1498 | n/a | 100.00% | 99.99th | Error |
-| CVE-2023-0669 | n/a | 100.00% | 100.00th | Error |
-| CVE-2023-1389 | n/a | 100.00% | 99.99th | Error |
-| CVE-2023-1671 | n/a | 100.00% | 99.99th | Error |
-| CVE-2023-4966 | n/a | 100.00% | 99.99th | Error |
+| CVE-2014-0160 | OpenSSL Information Disclosure Vulnerability | 100.00% | 100.00th | 7.5 |
+| CVE-2014-6271 | GNU Bourne-Again Shell (Bash) Arbitrary Code Execution Vulnerability | 100.00% | 99.99th | 9.8 |
+| CVE-2017-5638 | Apache Struts Remote Code Execution Vulnerability | 100.00% | 99.99th | 9.8 |
+| CVE-2017-9841 | PHPUnit Command Injection Vulnerability | 100.00% | 99.99th | 9.8 |
+| CVE-2021-1498 | Cisco HyperFlex HX Data Platform Command Injection Vulnerability | 100.00% | 99.99th | 9.8 |
+| CVE-2023-0669 | Fortra GoAnywhere MFT Remote Code Execution Vulnerability | 100.00% | 100.00th | 7.2 |
+| CVE-2023-1389 | TP-Link Archer AX-21 Command Injection Vulnerability | 100.00% | 99.99th | 8.8 |
+| CVE-2023-1671 | Sophos Web Appliance Command Injection Vulnerability | 100.00% | 99.99th | 9.8 |
+| CVE-2023-4966 | Citrix NetScaler ADC and NetScaler Gateway Buffer Overflow Vulnerability | 100.00% | 99.99th | 9.4 |
 | CVE-2024-3400 | n/a | 100.00% | 100.00th | Error |
 | CVE-2018-13379 | n/a | 100.00% | 99.99th | Error |
 | CVE-2019-11510 | n/a | 100.00% | 100.00th | Error |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
 | CVE-2023-44487 | n/a | 100.00% | 100.00th | Error |
 
-*Last update:* ***2026-06-28*** *(completed in 10.4742s)*
+*Last update:* ***2026-06-29*** *(completed in 68.3680s)*
