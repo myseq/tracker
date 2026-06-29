@@ -20,7 +20,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***2026-06-29***
+> *Last check:* ***Mon Jun 29 13:03:03 UTC 2026***
 
 
 For the complete list, check at [CVE Find](https://www.cvefind.com/en/cve-find-cisa-kev.html)
