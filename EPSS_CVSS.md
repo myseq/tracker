@@ -15,9 +15,9 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2023-1389 | TP-Link Archer AX-21 Command Injection Vulnerability | 100.00% | 99.99th | 8.8 |
 | CVE-2023-1671 | Sophos Web Appliance Command Injection Vulnerability | 100.00% | 99.99th | 9.8 |
 | CVE-2023-4966 | Citrix NetScaler ADC and NetScaler Gateway Buffer Overflow Vulnerability | 100.00% | 99.99th | 9.4 |
-| CVE-2024-3400 | n/a | 100.00% | 100.00th | Error |
-| CVE-2018-13379 | n/a | 100.00% | 99.99th | Error |
-| CVE-2019-11510 | n/a | 100.00% | 100.00th | Error |
+| CVE-2024-3400 | Palo Alto Networks PAN-OS Command Injection Vulnerability | 100.00% | 100.00th | 10.0 |
+| CVE-2018-13379 | Fortinet FortiOS SSL VPN Path Traversal Vulnerability | 100.00% | 99.99th | 9.1 |
+| CVE-2019-11510 | Ivanti Pulse Connect Secure Arbitrary File Read Vulnerability | 100.00% | 100.00th | 10.0 |
 | CVE-2021-21985 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-26084 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-26086 | n/a | 100.00% | 99.99th | Error |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
 | CVE-2023-44487 | n/a | 100.00% | 100.00th | Error |
 
-*Last update:* ***2026-06-29*** *(completed in 68.3680s)*
+*Last update:* ***2026-06-30*** *(completed in 12.6257s)*
