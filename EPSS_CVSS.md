@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3446 Total CVEs)
+### EPSS Priority Report (Top 25 of 3452 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -18,7 +18,7 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2024-3400 | Palo Alto Networks PAN-OS Command Injection Vulnerability | 100.00% | 100.00th | 10.0 |
 | CVE-2018-13379 | Fortinet FortiOS SSL VPN Path Traversal Vulnerability | 100.00% | 99.99th | 9.1 |
 | CVE-2019-11510 | Ivanti Pulse Connect Secure Arbitrary File Read Vulnerability | 100.00% | 100.00th | 10.0 |
-| CVE-2021-21985 | VMware vCenter Server Improper Input Validation Vulnerability | 100.00% | 99.99th | 9.8 |
+| CVE-2021-21985 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-26084 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-26086 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-35464 | n/a | 100.00% | 99.99th | Error |
@@ -26,10 +26,10 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2022-26134 | n/a | 100.00% | 99.99th | Error |
 | CVE-2022-29464 | n/a | 100.00% | 99.99th | Error |
 | CVE-2023-22518 | n/a | 100.00% | 100.00th | Error |
-| CVE-2023-27350 | PaperCut MF/NG Improper Access Control Vulnerability | 100.00% | 99.99th | 9.8 |
-| CVE-2023-32315 | Ignite Realtime Openfire Path Traversal Vulnerability | 100.00% | 99.99th | 8.6 |
-| CVE-2023-35078 | Ivanti Endpoint Manager Mobile Authentication Bypass Vulnerability | 100.00% | 100.00th | 9.8 |
+| CVE-2023-27350 | n/a | 100.00% | 99.99th | Error |
+| CVE-2023-32315 | n/a | 100.00% | 99.99th | Error |
+| CVE-2023-35078 | n/a | 100.00% | 100.00th | Error |
 | CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
 | CVE-2023-44487 | n/a | 100.00% | 100.00th | Error |
 
-*Last update:* ***2026-07-01*** *(completed in 14.3611s)*
+*Last update:* ***2026-07-02*** *(completed in 9.7854s)*
