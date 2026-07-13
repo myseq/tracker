@@ -1,26 +1,26 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1637)
+## Latest 7 CISA KEV Entries (Total: 1638)
 
 
-*Last update:* ***2026-07-10*** *(added 2 CVE)* 
+*Last update:* ***2026-07-13*** *(added 1 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2008-4128 | Cisco | IOS | 2026-07-13 | Unknown |
 | CVE-2026-48939 | iCagenda | iCagenda | 2026-07-10 | Unknown |
 | CVE-2026-56291 | Balbooa | Forms | 2026-07-10 | Unknown |
 | CVE-2026-48282 | Adobe | ColdFusion | 2026-07-07 | Unknown |
 | CVE-2026-56290 | Joomlack | Page Builder | 2026-07-07 | Unknown |
 | CVE-2026-55255 | Langflow | Langflow | 2026-07-07 | Unknown |
 | CVE-2026-48908 | JoomShaper | SP Page Builder | 2026-07-07 | Unknown |
-| CVE-2026-45659 | Microsoft | SharePoint Server | 2026-07-01 | Unknown |
 
 
 
 > [!NOTE]
-> *Last check:* ***Sun Jul 12 23:28:06 UTC 2026***
+> *Last check:* ***Mon Jul 13 23:26:53 UTC 2026***
 
 
 For the complete catalog, check at [CISA KEV](https://cisa.gov/kev)
