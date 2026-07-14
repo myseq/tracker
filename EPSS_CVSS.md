@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3479 Total CVEs)
+### EPSS Priority Report (Top 25 of 3480 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -30,6 +30,6 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2023-27350 | n/a | 100.00% | 99.99th | Error |
 | CVE-2023-32315 | n/a | 100.00% | 99.99th | Error |
 | CVE-2023-35078 | n/a | 100.00% | 100.00th | Error |
-| CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
+| CVE-2023-35082 | Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core Authentication Bypass Vulnerability | 100.00% | 100.00th | 9.8 |
 
-*Last update:* ***2026-07-13*** *(completed in 10.9282s)*
+*Last update:* ***2026-07-14*** *(completed in 9.5502s)*
