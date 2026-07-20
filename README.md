@@ -20,7 +20,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Sun Jul 19 23:30:20 UTC 2026***
+> *Last check:* ***Mon Jul 20 23:32:23 UTC 2026***
 
 
 For the complete catalog, check at [CISA KEV](https://cisa.gov/kev)
