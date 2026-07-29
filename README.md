@@ -20,7 +20,11 @@
 
 
 > [!NOTE]
-> *Last check:* ***Tue Jul 28 23:31:11 UTC 2026***
+> *Last check:* ***Wed Jul 29 03:14:57 UTC 2026***
+
+
+> [!TIP]
+> Use [SARA](https://sara-open.sirp.io/), an autonomous SOC, to learn more about the CVE.
 
 
 For the complete catalog, check at [CISA KEV](https://cisa.gov/kev)
