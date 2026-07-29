@@ -39,6 +39,8 @@ jobs:
           echo -e "\n\n" >> latest_kev.md
           echo -e "> [!NOTE]" >> latest_kev.md
           echo -e "> *Last check:* ***$TODAY***\n\n" >> latest_kev.md
+          echo -e "> [!TIP]" >> latest_kev.md
+          echo -e "> Use [SARA](https://sara-open.sirp.io/), an autonomous SOC, to learn more about the CVE.\n\n" >> latest_kev.md
 
           #echo -e "For the complete list, check at [CVE Find](https://www.cvefind.com/en/cve-find-cisa-kev.html)" >> latest_kev.md 
           #echo -e "or refer to [CISA KEV](https://cisa.gov/kev)" >> latest_kev.md
