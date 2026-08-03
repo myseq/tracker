@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3550 Total CVEs)
+### EPSS Priority Report (Top 25 of 3551 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -18,9 +18,9 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2018-13379 | Fortinet FortiOS SSL VPN Path Traversal Vulnerability | 100.00% | 99.99th | 9.1 |
 | CVE-2019-11510 | Ivanti Pulse Connect Secure Arbitrary File Read Vulnerability | 100.00% | 100.00th | 10.0 |
 | CVE-2019-19781 | Citrix ADC, Gateway, and SD-WAN WANOP Appliance Code Execution Vulnerability | 100.00% | 100.00th | 9.8 |
-| CVE-2021-21985 | VMware vCenter Server Improper Input Validation Vulnerability | 100.00% | 99.99th | 9.8 |
-| CVE-2021-26084 | Atlassian Confluence Server and Data Center Object-Graph Navigation Language (OGNL) Injection Vulnerability | 100.00% | 99.99th | 9.8 |
-| CVE-2021-26086 | Atlassian Jira Server and Data Center Path Traversal Vulnerability | 100.00% | 99.99th | 5.3 |
+| CVE-2021-21985 | n/a | 100.00% | 99.99th | Error |
+| CVE-2021-26084 | n/a | 100.00% | 99.99th | Error |
+| CVE-2021-26086 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-26855 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-35464 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-45105 | n/a | 100.00% | 99.99th | Error |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2023-35078 | n/a | 100.00% | 100.00th | Error |
 | CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
 
-*Last update:* ***2026-08-02*** *(completed in 15.5813s)*
+*Last update:* ***2026-08-03*** *(completed in 9.8168s)*
