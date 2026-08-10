@@ -4,7 +4,7 @@
 ## Latest 7 CISA KEV Entries (Total: 1662)
 
 
-*Last update:* ***2026-08-07*** *(added 1 CVE)* 
+*Last update:* ***2026-08-10*** *(added 0 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
@@ -20,7 +20,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Sun Aug  9 23:00:28 UTC 2026***
+> *Last check:* ***Mon Aug 10 23:07:17 UTC 2026***
 
 
 > [!TIP]
