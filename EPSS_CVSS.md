@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3571 Total CVEs)
+### EPSS Priority Report (Top 25 of 3577 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -17,11 +17,11 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2024-3400 | Palo Alto Networks PAN-OS Command Injection Vulnerability | 100.00% | 100.00th | 10.0 |
 | CVE-2018-13379 | Fortinet FortiOS SSL VPN Path Traversal Vulnerability | 100.00% | 99.99th | 9.1 |
 | CVE-2019-11510 | Ivanti Pulse Connect Secure Arbitrary File Read Vulnerability | 100.00% | 100.00th | 10.0 |
-| CVE-2019-19781 | Citrix ADC, Gateway, and SD-WAN WANOP Appliance Code Execution Vulnerability | 100.00% | 100.00th | 9.8 |
-| CVE-2021-21985 | n/a | 100.00% | 99.99th | Error |
+| CVE-2021-21985 | VMware vCenter Server Improper Input Validation Vulnerability | 100.00% | 99.99th | 9.8 |
 | CVE-2021-26084 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-26086 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-26855 | n/a | 100.00% | 99.99th | Error |
+| CVE-2021-34473 | n/a | 100.00% | 100.00th | Error |
 | CVE-2021-35464 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-45105 | n/a | 100.00% | 99.99th | Error |
 | CVE-2022-26134 | n/a | 100.00% | 99.99th | Error |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2023-35078 | n/a | 100.00% | 100.00th | Error |
 | CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
 
-*Last update:* ***2026-08-10*** *(completed in 10.2496s)*
+*Last update:* ***2026-08-11*** *(completed in 10.9167s)*
