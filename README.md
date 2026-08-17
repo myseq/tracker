@@ -1,26 +1,26 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1665)
+## Latest 7 CISA KEV Entries (Total: 1666)
 
 
-*Last update:* ***2026-08-14*** *(added 0 CVE)* 
+*Last update:* ***2026-08-17*** *(added 1 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2025-62593 | Ray-Project | Ray | 2026-08-17 | Unknown |
 | CVE-2026-72898 | Metabase | Metabase | 2026-08-11 | Unknown |
 | CVE-2026-68820 | Microsoft | Windows Ancillary Function Driver for WinSock  | 2026-08-11 | Unknown |
 | CVE-2026-20349 | Cisco | Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)  | 2026-08-11 | Unknown |
 | CVE-2026-8037 | Progress | LoadMaster | 2026-08-07 | Unknown |
 | CVE-2026-63077 | JetBrains | TeamCity | 2026-08-05 | Unknown |
 | CVE-2026-9198 | IBM | Langflow | 2026-08-04 | Unknown |
-| CVE-2026-34486 | Apache | Tomcat | 2026-08-04 | Unknown |
 
 
 
 > [!NOTE]
-> *Last check:* ***Sun Aug 16 22:48:34 UTC 2026***
+> *Last check:* ***Mon Aug 17 22:51:47 UTC 2026***
 
 
 > [!TIP]
