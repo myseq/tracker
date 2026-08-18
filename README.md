@@ -1,26 +1,26 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1666)
+## Latest 7 CISA KEV Entries (Total: 1670)
 
 
-*Last update:* ***2026-08-17*** *(added 1 CVE)* 
+*Last update:* ***2026-08-18*** *(added 4 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-65400 | Apple | macOS | 2026-08-18 | Unknown |
+| CVE-2026-55040 | Microsoft | SharePoint | 2026-08-18 | Unknown |
+| CVE-2026-59310 | Broadcom | VMware vCenter | 2026-08-18 | Unknown |
+| CVE-2026-33824 | Microsoft | Internet Key Exchange (IKE) Service Extensions | 2026-08-18 | Unknown |
 | CVE-2025-62593 | Ray-Project | Ray | 2026-08-17 | Unknown |
 | CVE-2026-72898 | Metabase | Metabase | 2026-08-11 | Unknown |
 | CVE-2026-68820 | Microsoft | Windows Ancillary Function Driver for WinSock  | 2026-08-11 | Unknown |
-| CVE-2026-20349 | Cisco | Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)  | 2026-08-11 | Unknown |
-| CVE-2026-8037 | Progress | LoadMaster | 2026-08-07 | Unknown |
-| CVE-2026-63077 | JetBrains | TeamCity | 2026-08-05 | Unknown |
-| CVE-2026-9198 | IBM | Langflow | 2026-08-04 | Unknown |
 
 
 
 > [!NOTE]
-> *Last check:* ***Mon Aug 17 22:51:47 UTC 2026***
+> *Last check:* ***Tue Aug 18 22:52:13 UTC 2026***
 
 
 > [!TIP]
