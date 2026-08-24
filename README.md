@@ -1,26 +1,26 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1674)
+## Latest 7 CISA KEV Entries (Total: 1675)
 
 
-*Last update:* ***2026-08-21*** *(added 1 CVE)* 
+*Last update:* ***2026-08-24*** *(added 1 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-21962 | Oracle | HTTP Server and Oracle Weblogic Server Proxy Plug-in | 2026-08-24 | Unknown |
 | CVE-2026-73570 | Synacor | Zimbra Collaboration Suite (ZCS) | 2026-08-21 | Unknown |
 | CVE-2026-72529 | TrueConf | Server | 2026-08-20 | Unknown |
 | CVE-2026-72530 | TrueConf | Server | 2026-08-20 | Unknown |
 | CVE-2026-64849 | MLflow | MLflow | 2026-08-19 | Unknown |
 | CVE-2026-65400 | Apple | macOS | 2026-08-18 | Unknown |
 | CVE-2026-55040 | Microsoft | SharePoint | 2026-08-18 | Unknown |
-| CVE-2026-59310 | Broadcom | VMware vCenter | 2026-08-18 | Unknown |
 
 
 
 > [!NOTE]
-> *Last check:* ***Sun Aug 23 22:49:28 UTC 2026***
+> *Last check:* ***Mon Aug 24 22:54:22 UTC 2026***
 
 
 > [!TIP]
