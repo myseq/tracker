@@ -1,26 +1,26 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1676)
+## Latest 7 CISA KEV Entries (Total: 1682)
 
 
-*Last update:* ***2026-08-25*** *(added 1 CVE)* 
+*Last update:* ***2026-08-26*** *(added 6 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2019-1068 | Microsoft | SQL Server | 2026-08-26 | Unknown |
+| CVE-2026-8452 | Citrix | NetScaler ADC and NetScaler Gateway | 2026-08-26 | Unknown |
+| CVE-2022-0995 | Linux | Kernel | 2026-08-26 | Unknown |
+| CVE-2015-5287 | Red Hat | Automatic Bug Reporting Tool | 2026-08-26 | Unknown |
+| CVE-2015-3246 | Red Hat | Libuser | 2026-08-26 | Unknown |
+| CVE-2021-23758 | Ajax.NET Professional | Ajax.NET Professional | 2026-08-26 | Unknown |
 | CVE-2026-60004 | Gitea | Gitea | 2026-08-25 | Unknown |
-| CVE-2026-21962 | Oracle | HTTP Server and Oracle Weblogic Server Proxy Plug-in | 2026-08-24 | Unknown |
-| CVE-2026-73570 | Synacor | Zimbra Collaboration Suite (ZCS) | 2026-08-21 | Unknown |
-| CVE-2026-72529 | TrueConf | Server | 2026-08-20 | Unknown |
-| CVE-2026-72530 | TrueConf | Server | 2026-08-20 | Unknown |
-| CVE-2026-64849 | MLflow | MLflow | 2026-08-19 | Unknown |
-| CVE-2026-65400 | Apple | macOS | 2026-08-18 | Unknown |
 
 
 
 > [!NOTE]
-> *Last check:* ***Tue Aug 25 22:56:30 UTC 2026***
+> *Last check:* ***Thu Aug 27 03:28:36 UTC 2026***
 
 
 > [!TIP]
