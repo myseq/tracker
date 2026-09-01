@@ -1,26 +1,26 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1685)
+## Latest 7 CISA KEV Entries (Total: 1687)
 
 
-*Last update:* ***2026-08-27*** *(added 3 CVE)* 
+*Last update:* ***2026-08-31*** *(added 2 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-81578 | PaperCut | NG/MF | 2026-08-31 | Unknown |
+| CVE-2026-82078 | PaperCut | NG/MF | 2026-08-31 | Unknown |
 | CVE-2026-66384 | JFrog | Artifactory | 2026-08-27 | Unknown |
 | CVE-2026-53362 | Linux | Kernel | 2026-08-27 | Unknown |
 | CVE-2023-49105 | ownCloud | ownCloud | 2026-08-27 | Unknown |
 | CVE-2019-1068 | Microsoft | SQL Server | 2026-08-26 | Unknown |
 | CVE-2026-8452 | Citrix | NetScaler ADC and NetScaler Gateway | 2026-08-26 | Unknown |
-| CVE-2022-0995 | Linux | Kernel | 2026-08-26 | Unknown |
-| CVE-2015-5287 | Red Hat | Automatic Bug Reporting Tool | 2026-08-26 | Unknown |
 
 
 
 > [!NOTE]
-> *Last check:* ***Mon Aug 31 00:46:36 UTC 2026***
+> *Last check:* ***Tue Sep  1 01:21:37 UTC 2026***
 
 
 > [!TIP]
