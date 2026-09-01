@@ -38,7 +38,7 @@ jobs:
           #jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:7] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) | \(.knownRansomwareCampaignUse) |"' kev.json >> latest_kev.md
           jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:7] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) | \(.knownRansomwareCampaignUse) |"' kev.json >> latest_kev.md
 
-          echo -e "\n\n" >> latest_kev.md
+          echo -e "\n\n**CVE with Known Ransomware:**\n " >> latest_kev.md
           echo -e "| CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |" >> latest_kev.md
           echo -e "| --- | --- | --- | --- | --- |" >> latest_kev.md
           jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | map(select(.knownRansomwareCampaignUse!="Unknown")) | .[0:7] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) | \(.knownRansomwareCampaignUse)  |"' kev.json >> latest_kev.md
