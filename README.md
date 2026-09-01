@@ -20,7 +20,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Tue Sep  1 01:21:37 UTC 2026***
+> *Last check:* ***Tue Sep  1 15:48:23 UTC 2026***
 
 
 > [!TIP]
@@ -29,3 +29,7 @@
 
 For the complete catalog, check at [CISA KEV](https://cisa.gov/kev)
 or check for KEV/CVSS/EPSS at [CVE Find](https://www.cvefind.com/en/cve-find-cisa-kev.html)
+
+## Links
+
+ - CISA [KEV](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json)
