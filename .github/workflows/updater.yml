@@ -33,9 +33,16 @@ jobs:
           echo -e "*Last update:* ***$LAST*** *(added $LCOUNT CVE)* \n\n" >> latest_kev.md
           echo -e "| CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |" >> latest_kev.md
           echo -e "| --- | --- | --- | --- | --- |" >> latest_kev.md
-          
+
           # Use jq to get the 7 most recent CVEs by dateAdded
+          #jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:7] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) | \(.knownRansomwareCampaignUse) |"' kev.json >> latest_kev.md
           jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | .[0:7] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) | \(.knownRansomwareCampaignUse) |"' kev.json >> latest_kev.md
+
+          echo -e "\n\n" >> latest_kev.md
+          echo -e "| CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |" >> latest_kev.md
+          echo -e "| --- | --- | --- | --- | --- |" >> latest_kev.md
+          jq -r '.vulnerabilities | sort_by(.dateAdded) | reverse | map(select(.knownRansomwareCampaignUse!="Unknown")) | .[0:7] | .[] | "| \(.cveID) | \(.vendorProject) | \(.product) | \(.dateAdded) | \(.knownRansomwareCampaignUse)  |"' kev.json >> latest_kev.md
+
           echo -e "\n\n" >> latest_kev.md
           echo -e "> [!NOTE]" >> latest_kev.md
           echo -e "> *Last check:* ***$TODAY***\n\n" >> latest_kev.md
@@ -47,7 +54,7 @@ jobs:
           echo -e "For the complete catalog, check at [CISA KEV](https://cisa.gov/kev)" >> latest_kev.md
           echo -e "or check for KEV/CVSS/EPSS at [CVE Find](https://www.cvefind.com/en/cve-find-cisa-kev.html)" >> latest_kev.md
           echo -e "\n## Links\n" >> latest_kev.md
-          echo -e " - CISA [KEV](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json)" >> latest_kev.md
+          echo -e " - CISA [KEV](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json) (JSON)" >> latest_kev.md
 
           echo -e "Last check: $TODAY" >> $GITHUB_STEP_SUMMARY
           echo -e "Last update: $LAST ($LCOUNT added)" >> $GITHUB_STEP_SUMMARY
