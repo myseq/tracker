@@ -18,7 +18,8 @@
 | CVE-2026-8452 | Citrix | NetScaler ADC and NetScaler Gateway | 2026-08-26 | Unknown |
 
 
-
+**CVE with Known Ransomware:**
+ 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
 | CVE-2026-15410 | SonicWall | SMA1000 Appliances | 2026-07-14 | Known  |
@@ -32,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Tue Sep  1 23:03:58 UTC 2026***
+> *Last check:* ***Tue Sep  1 23:10:47 UTC 2026***
 
 
 > [!TIP]
