@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1687)
+## Latest 7 CISA KEV Entries (Total: 1694)
 
 
-*Last update:* ***2026-09-01*** *(added 0 CVE)* 
+*Last update:* ***2026-09-02*** *(added 7 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
-| CVE-2026-81578 | PaperCut | NG/MF | 2026-08-31 | Unknown |
-| CVE-2026-82078 | PaperCut | NG/MF | 2026-08-31 | Unknown |
-| CVE-2026-66384 | JFrog | Artifactory | 2026-08-27 | Unknown |
-| CVE-2026-53362 | Linux | Kernel | 2026-08-27 | Unknown |
-| CVE-2023-49105 | ownCloud | ownCloud | 2026-08-27 | Unknown |
-| CVE-2019-1068 | Microsoft | SQL Server | 2026-08-26 | Unknown |
-| CVE-2026-8452 | Citrix | NetScaler ADC and NetScaler Gateway | 2026-08-26 | Unknown |
+| CVE-2026-83549 | SonicWall | SMA1000 Appliances | 2026-09-02 | Unknown |
+| CVE-2026-83548 | SonicWall | SMA1000 Appliances | 2026-09-02 | Unknown |
+| CVE-2026-9586 | Sangoma | Switchvox | 2026-09-02 | Unknown |
+| CVE-2026-82329 | JFrog | Artifactory | 2026-09-02 | Unknown |
+| CVE-2026-49869 | Kestra | Kestra OSS | 2026-09-02 | Unknown |
+| CVE-2026-48710 | Kludex | Starlette | 2026-09-02 | Unknown |
+| CVE-2026-59822 | BerriAI | LiteLLM | 2026-09-02 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Wed Sep  2 00:25:41 UTC 2026***
+> *Last check:* ***Thu Sep  3 00:31:36 UTC 2026***
 
 
 > [!TIP]
