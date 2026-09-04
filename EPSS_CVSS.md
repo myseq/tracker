@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3677 Total CVEs)
+### EPSS Priority Report (Top 25 of 3680 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -21,8 +21,8 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2021-26084 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-26086 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-34473 | n/a | 100.00% | 100.00th | Error |
-| CVE-2021-35464 | n/a | 100.00% | 99.99th | Error |
-| CVE-2021-40438 | n/a | 100.00% | 100.00th | Error |
+| CVE-2021-35464 | ForgeRock Access Management (AM) Core Server Remote Code Execution Vulnerability | 100.00% | 99.99th | 9.8 |
+| CVE-2021-40438 | Apache HTTP Server-Side Request Forgery (SSRF) | 100.00% | 100.00th | 9.0 |
 | CVE-2021-45105 | n/a | 100.00% | 99.99th | Error |
 | CVE-2022-26134 | n/a | 100.00% | 99.99th | Error |
 | CVE-2022-29464 | n/a | 100.00% | 100.00th | Error |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2023-35078 | n/a | 100.00% | 100.00th | Error |
 | CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
 
-*Last update:* ***2026-09-03*** *(completed in 11.2068s)*
+*Last update:* ***2026-09-04*** *(completed in 11.1183s)*
