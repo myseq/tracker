@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1694)
+## Latest 7 CISA KEV Entries (Total: 1695)
 
 
-*Last update:* ***2026-09-02*** *(added 7 CVE)* 
+*Last update:* ***2026-09-04*** *(added 1 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-85046 | Google | Chromium V8 | 2026-09-04 | Unknown |
 | CVE-2026-83549 | SonicWall | SMA1000 Appliances | 2026-09-02 | Unknown |
 | CVE-2026-83548 | SonicWall | SMA1000 Appliances | 2026-09-02 | Unknown |
 | CVE-2026-9586 | Sangoma | Switchvox | 2026-09-02 | Unknown |
 | CVE-2026-82329 | JFrog | Artifactory | 2026-09-02 | Unknown |
 | CVE-2026-49869 | Kestra | Kestra OSS | 2026-09-02 | Unknown |
 | CVE-2026-48710 | Kludex | Starlette | 2026-09-02 | Unknown |
-| CVE-2026-59822 | BerriAI | LiteLLM | 2026-09-02 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Fri Sep  4 00:16:49 UTC 2026***
+> *Last check:* ***Sat Sep  5 00:17:18 UTC 2026***
 
 
 > [!TIP]
