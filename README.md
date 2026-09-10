@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1699)
+## Latest 7 CISA KEV Entries (Total: 1703)
 
 
-*Last update:* ***2026-09-08*** *(added 4 CVE)* 
+*Last update:* ***2026-09-09*** *(added 4 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-20079 | Cisco | Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | 2026-09-09 | Unknown |
+| CVE-2026-87491 | Google | Chromium V8 | 2026-09-09 | Unknown |
+| CVE-2025-25249 | Fortinet | Multiple Products | 2026-09-09 | Unknown |
+| CVE-2026-19490 | Citrix | NetScaler | 2026-09-09 | Unknown |
 | CVE-2026-85880 | Microsoft | Windows | 2026-09-08 | Unknown |
 | CVE-2026-86218 | N-able | N-central | 2026-09-08 | Unknown |
 | CVE-2026-81963 | Microsoft | Windows | 2026-09-08 | Unknown |
-| CVE-2026-75650 | Adobe | Commerce and Magento | 2026-09-08 | Unknown |
-| CVE-2026-85046 | Google | Chromium V8 | 2026-09-04 | Unknown |
-| CVE-2026-83549 | SonicWall | SMA1000 Appliances | 2026-09-02 | Unknown |
-| CVE-2026-83548 | SonicWall | SMA1000 Appliances | 2026-09-02 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Wed Sep  9 00:27:47 UTC 2026***
+> *Last check:* ***Thu Sep 10 00:27:17 UTC 2026***
 
 
 > [!TIP]
