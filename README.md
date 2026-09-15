@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1709)
+## Latest 7 CISA KEV Entries (Total: 1710)
 
 
-*Last update:* ***2026-09-11*** *(added 4 CVE)* 
+*Last update:* ***2026-09-14*** *(added 1 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-76461 | Cisco | Secure Email Gateway | 2026-09-14 | Unknown |
 | CVE-2026-85706 | GitLab | Community Edition and Enterprise Edition | 2026-09-11 | Unknown |
 | CVE-2026-42018 | JFrog | Artifactory | 2026-09-11 | Unknown |
 | CVE-2026-42016 | JFrog | Artifactory | 2026-09-11 | Unknown |
 | CVE-2026-84869 | ConnectWise | ScreenConnect | 2026-09-11 | Unknown |
 | CVE-2026-67277 | MikroTik | RouterOS | 2026-09-10 | Unknown |
 | CVE-2026-86060 | MikroTik | RouterOS | 2026-09-10 | Unknown |
-| CVE-2026-20079 | Cisco | Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | 2026-09-09 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Mon Sep 14 00:21:08 UTC 2026***
+> *Last check:* ***Tue Sep 15 00:49:44 UTC 2026***
 
 
 > [!TIP]
