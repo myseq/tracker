@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1710)
+## Latest 7 CISA KEV Entries (Total: 1713)
 
 
-*Last update:* ***2026-09-14*** *(added 1 CVE)* 
+*Last update:* ***2026-09-16*** *(added 3 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-87886 | Acronis | Backup | 2026-09-16 | Unknown |
+| CVE-2026-76460 | Cisco | Identity Services Engine | 2026-09-16 | Unknown |
+| CVE-2026-58704 | Google | Pixel | 2026-09-16 | Unknown |
 | CVE-2026-76461 | Cisco | Secure Email Gateway | 2026-09-14 | Unknown |
 | CVE-2026-85706 | GitLab | Community Edition and Enterprise Edition | 2026-09-11 | Unknown |
 | CVE-2026-42018 | JFrog | Artifactory | 2026-09-11 | Unknown |
 | CVE-2026-42016 | JFrog | Artifactory | 2026-09-11 | Unknown |
-| CVE-2026-84869 | ConnectWise | ScreenConnect | 2026-09-11 | Unknown |
-| CVE-2026-67277 | MikroTik | RouterOS | 2026-09-10 | Unknown |
-| CVE-2026-86060 | MikroTik | RouterOS | 2026-09-10 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Wed Sep 16 00:41:42 UTC 2026***
+> *Last check:* ***Thu Sep 17 00:48:24 UTC 2026***
 
 
 > [!TIP]
