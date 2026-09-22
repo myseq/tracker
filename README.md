@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1716)
+## Latest 7 CISA KEV Entries (Total: 1717)
 
 
-*Last update:* ***2026-09-18*** *(added 3 CVE)* 
+*Last update:* ***2026-09-21*** *(added 1 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-7273 | Zyxel | GS1900 Series Switches | 2026-09-21 | Unknown |
 | CVE-2025-39682 | Linux | Kernel | 2026-09-18 | Unknown |
 | CVE-2026-53266 | Linux | Kernel | 2026-09-18 | Unknown |
 | CVE-2025-39964 | Linux | Kernel | 2026-09-18 | Unknown |
 | CVE-2026-87886 | Acronis | Backup | 2026-09-16 | Unknown |
 | CVE-2026-76460 | Cisco | Identity Services Engine | 2026-09-16 | Unknown |
 | CVE-2026-58704 | Google | Pixel | 2026-09-16 | Unknown |
-| CVE-2026-76461 | Cisco | Secure Email Gateway | 2026-09-14 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Mon Sep 21 00:25:02 UTC 2026***
+> *Last check:* ***Tue Sep 22 01:02:52 UTC 2026***
 
 
 > [!TIP]
