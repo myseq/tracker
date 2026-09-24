@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3781 Total CVEs)
+### EPSS Priority Report (Top 25 of 3786 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -23,7 +23,7 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2021-34473 | n/a | 100.00% | 100.00th | Error |
 | CVE-2021-35464 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-40438 | n/a | 100.00% | 100.00th | Error |
-| CVE-2021-45105 | n/a | 100.00% | 99.99th | Error |
+| CVE-2021-45105 | *Description: Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3 and 2.3.1) did not protect from uncontrolled recursion from self-referential lookups. This allows an attacker with control over Thread Context Map data to cause a denial of service when a crafted string is interpreted. This issue was fixed in Log4j 2.17.0, 2.12.3, and 2.3.1.* | 100.00% | 99.99th | 5.9 |
 | CVE-2022-26134 | n/a | 100.00% | 99.99th | Error |
 | CVE-2022-29464 | n/a | 100.00% | 100.00th | Error |
 | CVE-2023-22518 | n/a | 100.00% | 100.00th | Error |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2023-35078 | n/a | 100.00% | 100.00th | Error |
 | CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
 
-*Last update:* ***2026-09-23*** *(completed in 11.3691s)*
+*Last update:* ***2026-09-24*** *(completed in 9.7824s)*
