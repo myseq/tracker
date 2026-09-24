@@ -4,7 +4,7 @@
 ## Latest 7 CISA KEV Entries (Total: 1721)
 
 
-*Last update:* ***2026-09-22*** *(added 4 CVE)* 
+*Last update:* ***2026-09-23*** *(added 0 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
@@ -23,17 +23,17 @@
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
 | CVE-2026-59310 | Broadcom | VMware vCenter | 2026-08-18 | Known  |
+| CVE-2026-63077 | JetBrains | TeamCity | 2026-08-05 | Known  |
 | CVE-2026-20316 | Cisco | Secure Firewall Management Center (FMC) | 2026-07-29 | Known  |
 | CVE-2026-15410 | SonicWall | SMA1000 Appliances | 2026-07-14 | Known  |
 | CVE-2026-15409 | SonicWall | SMA1000 Appliances | 2026-07-14 | Known  |
 | CVE-2026-45659 | Microsoft | SharePoint Server | 2026-07-01 | Known  |
 | CVE-2026-12569 | PTC | Windchill and FlexPLM | 2026-06-25 | Known  |
-| CVE-2026-35273 | Oracle |  PeopleSoft Enterprise PeopleTools | 2026-06-12 | Known  |
 
 
 
 > [!NOTE]
-> *Last check:* ***Wed Sep 23 00:51:22 UTC 2026***
+> *Last check:* ***Thu Sep 24 00:45:24 UTC 2026***
 
 
 > [!TIP]
