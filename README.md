@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1723)
+## Latest 7 CISA KEV Entries (Total: 1726)
 
 
-*Last update:* ***2026-09-24*** *(added 2 CVE)* 
+*Last update:* ***2026-09-25*** *(added 3 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-87902 | WordPress | Core | 2026-09-25 | Unknown |
+| CVE-2026-65660 | Microsoft | SharePoint | 2026-09-25 | Unknown |
+| CVE-2026-67279 | MikroTik | RouterOS | 2026-09-25 | Unknown |
 | CVE-2026-71362 | Adobe | Commerce and Magento  | 2026-09-24 | Unknown |
 | CVE-2026-5430 | WSO2 | Multiple Products | 2026-09-24 | Unknown |
 | CVE-2026-85102 | Check Point | Multiple Products | 2026-09-22 | Unknown |
 | CVE-2026-93616 | Check Point | Multiple Products | 2026-09-22 | Unknown |
-| CVE-2026-94127 | F5 | BIG-IP APM | 2026-09-22 | Unknown |
-| CVE-2026-93952 | Arista | VeloCloud Orchestrator | 2026-09-22 | Unknown |
-| CVE-2026-7273 | Zyxel | GS1900 Series Switches | 2026-09-21 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Fri Sep 25 00:42:30 UTC 2026***
+> *Last check:* ***Sat Sep 26 00:47:02 UTC 2026***
 
 
 > [!TIP]
