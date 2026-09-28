@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1726)
+## Latest 7 CISA KEV Entries (Total: 1728)
 
 
-*Last update:* ***2026-09-25*** *(added 3 CVE)* 
+*Last update:* ***2026-09-27*** *(added 2 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-88771 | Citrix | NetScaler | 2026-09-27 | Unknown |
+| CVE-2026-88772 | Citrix | NetScaler | 2026-09-27 | Unknown |
 | CVE-2026-87902 | WordPress | Core | 2026-09-25 | Unknown |
 | CVE-2026-65660 | Microsoft | SharePoint | 2026-09-25 | Unknown |
 | CVE-2026-67279 | MikroTik | RouterOS | 2026-09-25 | Unknown |
 | CVE-2026-71362 | Adobe | Commerce and Magento  | 2026-09-24 | Unknown |
 | CVE-2026-5430 | WSO2 | Multiple Products | 2026-09-24 | Unknown |
-| CVE-2026-85102 | Check Point | Multiple Products | 2026-09-22 | Unknown |
-| CVE-2026-93616 | Check Point | Multiple Products | 2026-09-22 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Sun Sep 27 00:47:46 UTC 2026***
+> *Last check:* ***Mon Sep 28 01:03:20 UTC 2026***
 
 
 > [!TIP]
