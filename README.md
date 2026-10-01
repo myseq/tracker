@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1729)
+## Latest 7 CISA KEV Entries (Total: 1730)
 
 
-*Last update:* ***2026-09-29*** *(added 1 CVE)* 
+*Last update:* ***2026-09-30*** *(added 1 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-76504 | Cisco | Catalyst SD-WAN Manager | 2026-09-30 | Unknown |
 | CVE-2026-86950 | Apple | Multiple Products | 2026-09-29 | Unknown |
 | CVE-2026-88771 | Citrix | NetScaler | 2026-09-27 | Unknown |
 | CVE-2026-88772 | Citrix | NetScaler | 2026-09-27 | Unknown |
 | CVE-2026-87902 | WordPress | Core | 2026-09-25 | Unknown |
 | CVE-2026-65660 | Microsoft | SharePoint | 2026-09-25 | Unknown |
 | CVE-2026-67279 | MikroTik | RouterOS | 2026-09-25 | Unknown |
-| CVE-2026-71362 | Adobe | Commerce and Magento  | 2026-09-24 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Wed Sep 30 01:26:49 UTC 2026***
+> *Last check:* ***Thu Oct  1 01:25:52 UTC 2026***
 
 
 > [!TIP]
