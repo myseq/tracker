@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1733)
+## Latest 7 CISA KEV Entries (Total: 1734)
 
 
-*Last update:* ***2026-10-02*** *(added 2 CVE)* 
+*Last update:* ***2026-10-04*** *(added 1 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-88779 | Citrix | NetScaler | 2026-10-04 | Unknown |
 | CVE-2026-102489 | Zammad GmbH | Zammad | 2026-10-02 | Unknown |
 | CVE-2026-102490 | Zammad GmbH | Zammad | 2026-10-02 | Unknown |
 | CVE-2026-104286 | Fortinet | FortiMail | 2026-10-01 | Unknown |
 | CVE-2026-76504 | Cisco | Catalyst SD-WAN Manager | 2026-09-30 | Unknown |
 | CVE-2026-86950 | Apple | Multiple Products | 2026-09-29 | Unknown |
 | CVE-2026-88771 | Citrix | NetScaler | 2026-09-27 | Unknown |
-| CVE-2026-88772 | Citrix | NetScaler | 2026-09-27 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Sun Oct  4 01:54:18 UTC 2026***
+> *Last check:* ***Mon Oct  5 01:08:33 UTC 2026***
 
 
 > [!TIP]
