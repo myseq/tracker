@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3839 Total CVEs)
+### EPSS Priority Report (Top 25 of 3846 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -18,8 +18,8 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2024-7593 | Ivanti Virtual Traffic Manager Authentication Bypass Vulnerability | 100.00% | 99.99th | 9.8 |
 | CVE-2018-13379 | Fortinet FortiOS SSL VPN Path Traversal Vulnerability | 100.00% | 100.00th | 9.1 |
 | CVE-2021-21985 | VMware vCenter Server Improper Input Validation Vulnerability | 100.00% | 99.99th | 9.8 |
-| CVE-2021-22005 | n/a | 100.00% | 100.00th | Error |
-| CVE-2021-26084 | n/a | 100.00% | 99.99th | Error |
+| CVE-2021-22005 | VMware vCenter Server File Upload Vulnerability | 100.00% | 100.00th | 9.8 |
+| CVE-2021-26084 | Atlassian Confluence Server and Data Center Object-Graph Navigation Language (OGNL) Injection Vulnerability | 100.00% | 99.99th | 9.8 |
 | CVE-2021-26086 | Atlassian Jira Server and Data Center Path Traversal Vulnerability | 100.00% | 99.99th | 5.3 |
 | CVE-2021-34473 | Microsoft Exchange Server Remote Code Execution Vulnerability | 100.00% | 100.00th | 9.1 |
 | CVE-2021-35464 | ForgeRock Access Management (AM) Core Server Remote Code Execution Vulnerability | 100.00% | 99.99th | 9.8 |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2023-32315 | Ignite Realtime Openfire Path Traversal Vulnerability | 100.00% | 99.99th | 8.6 |
 | CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
 
-*Last update:* ***2026-10-07*** *(completed in 11.0144s)*
+*Last update:* ***2026-10-08*** *(completed in 12.3677s)*
