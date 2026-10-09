@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1734)
+## Latest 7 CISA KEV Entries (Total: 1739)
 
 
-*Last update:* ***2026-10-04*** *(added 1 CVE)* 
+*Last update:* ***2026-10-08*** *(added 5 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2015-3306 | ProFTPD | ProFTPD | 2026-10-08 | Unknown |
+| CVE-2021-3199 | ONLYOFFICE | Docs | 2026-10-08 | Unknown |
+| CVE-2023-22894 | Strapi | Strapi | 2026-10-08 | Unknown |
+| CVE-2016-3081 | Apache | Struts | 2026-10-08 | Unknown |
+| CVE-2015-5477 | ISC | BIND | 2026-10-08 | Unknown |
 | CVE-2026-88779 | Citrix | NetScaler | 2026-10-04 | Unknown |
 | CVE-2026-102489 | Zammad GmbH | Zammad | 2026-10-02 | Unknown |
-| CVE-2026-102490 | Zammad GmbH | Zammad | 2026-10-02 | Unknown |
-| CVE-2026-104286 | Fortinet | FortiMail | 2026-10-01 | Unknown |
-| CVE-2026-76504 | Cisco | Catalyst SD-WAN Manager | 2026-09-30 | Unknown |
-| CVE-2026-86950 | Apple | Multiple Products | 2026-09-29 | Unknown |
-| CVE-2026-88771 | Citrix | NetScaler | 2026-09-27 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Thu Oct  8 02:12:10 UTC 2026***
+> *Last check:* ***Fri Oct  9 02:26:26 UTC 2026***
 
 
 > [!TIP]
