@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3862 Total CVEs)
+### EPSS Priority Report (Top 25 of 3864 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
 | CVE-2024-23897 | n/a | 100.00% | 100.00th | Error |
 
-*Last update:* ***2026-10-12*** *(completed in 10.3306s)*
+*Last update:* ***2026-10-13*** *(completed in 10.9173s)*
