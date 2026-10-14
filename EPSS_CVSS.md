@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3864 Total CVEs)
+### EPSS Priority Report (Top 25 of 3871 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -18,7 +18,7 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2024-7593 | Ivanti Virtual Traffic Manager Authentication Bypass Vulnerability | 100.00% | 99.99th | 9.8 |
 | CVE-2018-13379 | Fortinet FortiOS SSL VPN Path Traversal Vulnerability | 100.00% | 100.00th | 9.1 |
 | CVE-2021-21985 | VMware vCenter Server Improper Input Validation Vulnerability | 100.00% | 99.99th | 9.8 |
-| CVE-2021-22005 | n/a | 100.00% | 100.00th | Error |
+| CVE-2021-22005 | VMware vCenter Server File Upload Vulnerability | 100.00% | 100.00th | 9.8 |
 | CVE-2021-26084 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-26086 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-34473 | n/a | 100.00% | 100.00th | Error |
@@ -32,4 +32,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
 | CVE-2024-23897 | n/a | 100.00% | 100.00th | Error |
 
-*Last update:* ***2026-10-13*** *(completed in 10.9173s)*
+*Last update:* ***2026-10-14*** *(completed in 10.9423s)*
