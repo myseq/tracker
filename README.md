@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1741)
+## Latest 7 CISA KEV Entries (Total: 1745)
 
 
-*Last update:* ***2026-10-13*** *(added 2 CVE)* 
+*Last update:* ***2026-10-14*** *(added 4 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-0322 | Palo Alto Networks | PAN-OS | 2026-10-14 | Unknown |
+| CVE-2026-105133 | Ahsay | AhsayCBS | 2026-10-14 | Unknown |
+| CVE-2026-76519 | Cisco | Secure Email Gateway | 2026-10-14 | Unknown |
+| CVE-2026-105134 | Ahsay | AhsayCBS | 2026-10-14 | Unknown |
 | CVE-2026-96951 | Microsoft | Windows | 2026-10-13 | Unknown |
 | CVE-2026-104935 | Ivanti | Connect Secure | 2026-10-13 | Unknown |
 | CVE-2015-3306 | ProFTPD | ProFTPD | 2026-10-08 | Unknown |
-| CVE-2021-3199 | ONLYOFFICE | Docs | 2026-10-08 | Unknown |
-| CVE-2023-22894 | Strapi | Strapi | 2026-10-08 | Unknown |
-| CVE-2016-3081 | Apache | Struts | 2026-10-08 | Unknown |
-| CVE-2015-5477 | ISC | BIND | 2026-10-08 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Wed Oct 14 01:20:11 UTC 2026***
+> *Last check:* ***Thu Oct 15 00:44:52 UTC 2026***
 
 
 > [!TIP]
