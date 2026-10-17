@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1746)
+## Latest 7 CISA KEV Entries (Total: 1748)
 
 
-*Last update:* ***2026-10-15*** *(added 1 CVE)* 
+*Last update:* ***2026-10-16*** *(added 2 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2025-61624 | Fortinet | Multiple Products | 2026-10-16 | Unknown |
+| CVE-2026-102764 | BeyondTrust | Remote Support | 2026-10-16 | Unknown |
 | CVE-2026-21589 | Atlassian | Multiple Products | 2026-10-15 | Unknown |
 | CVE-2026-0322 | Palo Alto Networks | PAN-OS | 2026-10-14 | Unknown |
 | CVE-2026-105133 | Ahsay | AhsayCBS | 2026-10-14 | Unknown |
 | CVE-2026-76519 | Cisco | Secure Email Gateway | 2026-10-14 | Unknown |
 | CVE-2026-105134 | Ahsay | AhsayCBS | 2026-10-14 | Unknown |
-| CVE-2026-96951 | Microsoft | Windows | 2026-10-13 | Unknown |
-| CVE-2026-104935 | Ivanti | Connect Secure | 2026-10-13 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Fri Oct 16 00:37:15 UTC 2026***
+> *Last check:* ***Sat Oct 17 00:41:36 UTC 2026***
 
 
 > [!TIP]
