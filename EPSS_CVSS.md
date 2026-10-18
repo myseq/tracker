@@ -26,10 +26,10 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2021-45105 | n/a | 100.00% | 99.99th | Error |
 | CVE-2022-26134 | n/a | 100.00% | 99.99th | Error |
 | CVE-2022-29464 | n/a | 100.00% | 99.99th | Error |
-| CVE-2023-22518 | n/a | 100.00% | 100.00th | Error |
-| CVE-2023-27350 | n/a | 100.00% | 100.00th | Error |
-| CVE-2023-32315 | n/a | 100.00% | 99.99th | Error |
-| CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
-| CVE-2024-23897 | n/a | 100.00% | 100.00th | Error |
+| CVE-2023-22518 | Atlassian Confluence Data Center and Server Improper Authorization Vulnerability | 100.00% | 100.00th | 9.8 |
+| CVE-2023-27350 | PaperCut MF/NG Improper Access Control Vulnerability | 100.00% | 100.00th | 9.8 |
+| CVE-2023-32315 | Ignite Realtime Openfire Path Traversal Vulnerability | 100.00% | 99.99th | 8.6 |
+| CVE-2023-35082 | Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core Authentication Bypass Vulnerability | 100.00% | 100.00th | 9.8 |
+| CVE-2024-23897 | Jenkins Command Line Interface (CLI) Path Traversal Vulnerability | 100.00% | 100.00th | 9.8 |
 
-*Last update:* ***2026-10-17*** *(completed in 11.5843s)*
+*Last update:* ***2026-10-18*** *(completed in 11.0340s)*
