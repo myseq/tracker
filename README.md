@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1748)
+## Latest 7 CISA KEV Entries (Total: 1754)
 
 
-*Last update:* ***2026-10-16*** *(added 2 CVE)* 
+*Last update:* ***2026-10-20*** *(added 6 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-110936 | Siemens | Software Center | 2026-10-20 | Unknown |
+| CVE-2026-96652 | Plex | Media Server | 2026-10-20 | Unknown |
+| CVE-2026-96654 | Plex | Media Server | 2026-10-20 | Unknown |
+| CVE-2026-96655 | Plex | Media Server | 2026-10-20 | Unknown |
+| CVE-2026-96656 | Plex | Media Server | 2026-10-20 | Unknown |
+| CVE-2026-106931 | EG Secure Solutions | SiteGuard Server Edition | 2026-10-20 | Unknown |
 | CVE-2025-61624 | Fortinet | Multiple Products | 2026-10-16 | Unknown |
-| CVE-2026-102764 | BeyondTrust | Remote Support | 2026-10-16 | Unknown |
-| CVE-2026-21589 | Atlassian | Multiple Products | 2026-10-15 | Unknown |
-| CVE-2026-0322 | Palo Alto Networks | PAN-OS | 2026-10-14 | Unknown |
-| CVE-2026-105133 | Ahsay | AhsayCBS | 2026-10-14 | Unknown |
-| CVE-2026-76519 | Cisco | Secure Email Gateway | 2026-10-14 | Unknown |
-| CVE-2026-105134 | Ahsay | AhsayCBS | 2026-10-14 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Tue Oct 20 01:09:22 UTC 2026***
+> *Last check:* ***Wed Oct 21 00:48:00 UTC 2026***
 
 
 > [!TIP]
