@@ -2,12 +2,12 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 3924 Total CVEs)
+### EPSS Priority Report (Top 25 of 3943 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
 | CVE-2014-0160 | OpenSSL Information Disclosure Vulnerability | 100.00% | 100.00th | 7.5 |
-| CVE-2014-6271 | n/a | 100.00% | 99.99th | Error |
+| CVE-2014-6271 | GNU Bourne-Again Shell (Bash) Arbitrary Code Execution Vulnerability | 100.00% | 99.99th | 9.8 |
 | CVE-2017-5638 | Apache Struts Remote Code Execution Vulnerability | 100.00% | 100.00th | 9.8 |
 | CVE-2017-9841 | PHPUnit Command Injection Vulnerability | 100.00% | 99.99th | 9.8 |
 | CVE-2021-1498 | Cisco HyperFlex HX Data Platform Command Injection Vulnerability | 100.00% | 99.99th | 9.8 |
@@ -25,11 +25,11 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2021-35464 | n/a | 100.00% | 99.99th | Error |
 | CVE-2021-45105 | n/a | 100.00% | 99.99th | Error |
 | CVE-2022-26134 | n/a | 100.00% | 99.99th | Error |
-| CVE-2022-29464 | n/a | 100.00% | 99.99th | Error |
+| CVE-2022-29464 | WSO2 Multiple Products Unrestrictive Upload of File Vulnerability | 100.00% | 99.99th | 9.8 |
 | CVE-2023-22518 | n/a | 100.00% | 100.00th | Error |
 | CVE-2023-27350 | n/a | 100.00% | 100.00th | Error |
-| CVE-2023-32315 | n/a | 100.00% | 99.99th | Error |
-| CVE-2023-35082 | n/a | 100.00% | 100.00th | Error |
-| CVE-2024-23897 | n/a | 100.00% | 100.00th | Error |
+| CVE-2023-32315 | Ignite Realtime Openfire Path Traversal Vulnerability | 100.00% | 99.99th | 8.6 |
+| CVE-2023-35082 | Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core Authentication Bypass Vulnerability | 100.00% | 100.00th | 9.8 |
+| CVE-2024-23897 | Jenkins Command Line Interface (CLI) Path Traversal Vulnerability | 100.00% | 100.00th | 9.8 |
 
-*Last update:* ***2026-10-21*** *(completed in 16.1841s)*
+*Last update:* ***2026-10-22*** *(completed in 14.9943s)*
