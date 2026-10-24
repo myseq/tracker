@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1754)
+## Latest 7 CISA KEV Entries (Total: 1756)
 
 
-*Last update:* ***2026-10-21*** *(added 0 CVE)* 
+*Last update:* ***2026-10-23*** *(added 2 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-110447 | Collabora | Collabora Online – Built-in CODE Server | 2026-10-23 | Unknown |
+| CVE-2026-114625 | Arista | VeloCloud Orchestrator | 2026-10-23 | Unknown |
 | CVE-2026-110936 | Siemens | Software Center | 2026-10-20 | Unknown |
 | CVE-2026-96652 | Plex | Media Server | 2026-10-20 | Unknown |
 | CVE-2026-96654 | Plex | Media Server | 2026-10-20 | Unknown |
 | CVE-2026-96655 | Plex | Media Server | 2026-10-20 | Unknown |
 | CVE-2026-96656 | Plex | Media Server | 2026-10-20 | Unknown |
-| CVE-2026-106931 | EG Secure Solutions | SiteGuard Server Edition | 2026-10-20 | Unknown |
-| CVE-2025-61624 | Fortinet | Multiple Products | 2026-10-16 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Fri Oct 23 00:50:18 UTC 2026***
+> *Last check:* ***Sat Oct 24 00:57:24 UTC 2026***
 
 
 > [!TIP]
