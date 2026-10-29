@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1760)
+## Latest 7 CISA KEV Entries (Total: 1762)
 
 
-*Last update:* ***2026-10-27*** *(added 2 CVE)* 
+*Last update:* ***2026-10-28*** *(added 2 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-46300 | Linux | Kernel | 2026-10-28 | Unknown |
+| CVE-2026-41709 | Broadcom | VMware ESX | 2026-10-28 | Unknown |
 | CVE-2026-111497 | Google | Brotli | 2026-10-27 | Unknown |
 | CVE-2026-48356 | Adobe | Commerce and Magento | 2026-10-27 | Unknown |
 | CVE-2026-109619 | PHP Group | PHP | 2026-10-26 | Unknown |
 | CVE-2026-109618 | PHP Group | PHP | 2026-10-26 | Unknown |
 | CVE-2026-110447 | Collabora | Collabora Online – Built-in CODE Server | 2026-10-23 | Unknown |
-| CVE-2026-114625 | Arista | VeloCloud Orchestrator | 2026-10-23 | Unknown |
-| CVE-2026-110936 | Siemens | Software Center | 2026-10-20 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Wed Oct 28 01:33:17 UTC 2026***
+> *Last check:* ***Thu Oct 29 01:54:33 UTC 2026***
 
 
 > [!TIP]
