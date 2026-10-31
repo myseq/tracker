@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1764)
+## Latest 7 CISA KEV Entries (Total: 1766)
 
 
-*Last update:* ***2026-10-29*** *(added 2 CVE)* 
+*Last update:* ***2026-10-30*** *(added 2 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-111357 | Ivanti | Connect Secure | 2026-10-30 | Unknown |
+| CVE-2026-118527 | Ivanti | Connect Secure | 2026-10-30 | Unknown |
 | CVE-2026-76418 | Cisco | Secure Firewall ASA Software and Cisco Secure FTD Software | 2026-10-29 | Unknown |
 | CVE-2026-97229 | GitLab | Community Edition and Enterprise Edition | 2026-10-29 | Unknown |
 | CVE-2026-46300 | Linux | Kernel | 2026-10-28 | Unknown |
 | CVE-2026-41709 | Broadcom | VMware ESX | 2026-10-28 | Unknown |
 | CVE-2026-111497 | Google | Brotli | 2026-10-27 | Unknown |
-| CVE-2026-48356 | Adobe | Commerce and Magento | 2026-10-27 | Unknown |
-| CVE-2026-109619 | PHP Group | PHP | 2026-10-26 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Fri Oct 30 02:05:40 UTC 2026***
+> *Last check:* ***Sat Oct 31 01:44:26 UTC 2026***
 
 
 > [!TIP]
