@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1767)
+## Latest 7 CISA KEV Entries (Total: 1768)
 
 
-*Last update:* ***2026-11-03*** *(added 1 CVE)* 
+*Last update:* ***2026-11-04*** *(added 1 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2024-27834 | Apple | Multiple Products | 2026-11-04 | Unknown |
 | CVE-2026-119977 | WordPress | WordPress Core | 2026-11-03 | Unknown |
 | CVE-2026-111357 | Ivanti | Connect Secure | 2026-10-30 | Unknown |
 | CVE-2026-118527 | Ivanti | Connect Secure | 2026-10-30 | Unknown |
 | CVE-2026-76418 | Cisco | Secure Firewall ASA Software and Cisco Secure FTD Software | 2026-10-29 | Unknown |
 | CVE-2026-97229 | GitLab | Community Edition and Enterprise Edition | 2026-10-29 | Unknown |
 | CVE-2026-46300 | Linux | Kernel | 2026-10-28 | Unknown |
-| CVE-2026-41709 | Broadcom | VMware ESX | 2026-10-28 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Wed Nov  4 02:35:02 UTC 2026***
+> *Last check:* ***Thu Nov  5 02:41:02 UTC 2026***
 
 
 > [!TIP]
