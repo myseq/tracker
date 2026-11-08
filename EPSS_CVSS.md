@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 4014 Total CVEs)
+### EPSS Priority Report (Top 25 of 4021 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -14,22 +14,22 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2026-87902 | WordPress Core Remote File Inclusion Vulnerability | 95.77% | 99.87th | 8.1 |
 | CVE-2026-85706 | GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability | 97.36% | 99.90th | 10.0 |
 | CVE-2026-85102 | Check Point Multiple Products Improper Certificate Validation Vulnerability | 54.14% | 99.01th | 9.8 |
-| CVE-2026-82078 | PaperCut NG/MF Unsafe Reflection Vulnerability | 63.05% | 99.20th | 9.1 |
+| CVE-2026-82078 | PaperCut NG/MF Unsafe Reflection Vulnerability | 63.05% | 99.21th | 9.1 |
 | CVE-2026-81578 | PaperCut NG/MF Missing Authentication for Critical Function Vulnerability | 84.73% | 99.71th | 9.8 |
 | CVE-2026-8037 | Progress LoadMaster Command Injection Vulnerability | 99.79% | 99.96th | 9.6 |
 | CVE-2026-76460 | Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability | 75.60% | 99.52th | 10.0 |
-| CVE-2026-73570 | n/a | 71.66% | 99.42th | Error |
-| CVE-2026-72898 | n/a | 98.81% | 99.93th | Error |
-| CVE-2026-71362 | n/a | 90.49% | 99.80th | Error |
-| CVE-2026-63077 | n/a | 94.89% | 99.86th | Error |
-| CVE-2026-55040 | n/a | 69.54% | 99.37th | Error |
-| CVE-2026-50751 | n/a | 85.35% | 99.72th | Error |
-| CVE-2026-49160 | n/a | 56.59% | 99.06th | Error |
-| CVE-2026-48908 | n/a | 88.51% | 99.77th | Error |
+| CVE-2026-75650 | Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability | 99.38% | 99.94th | 10.0 |
+| CVE-2026-73570 | Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability | 71.66% | 99.42th | 8.9 |
+| CVE-2026-72898 | Metabase SQL Injection Vulnerability | 98.81% | 99.93th | 10.0 |
+| CVE-2026-71362 | Adobe Commerce and Magento Incorrect Authorization Vulnerability  | 90.49% | 99.80th | 9.1 |
+| CVE-2026-63077 | JetBrains TeamCity Deserialization of Untrusted Data Vulnerability | 94.89% | 99.86th | 9.8 |
+| CVE-2026-59310 | Broadcom VMware vCenter Path Traversal Vulnerability | 61.67% | 99.17th | 9.8 |
+| CVE-2026-55040 | Microsoft SharePoint Weak Authentication Vulnerability | 69.54% | 99.37th | 9.1 |
+| CVE-2026-50751 | Check Point Security Gateway Improper Authentication Vulnerability | 85.35% | 99.72th | 9.3 |
+| CVE-2026-49160 | *Description: Uncontrolled resource consumption in HTTP/2 allows an unauthorized attacker to deny service over a network.* | 56.59% | 99.07th | 7.5 |
+| CVE-2026-48908 | JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability | 89.18% | 99.78th | 9.8 |
 | CVE-2026-48907 | n/a | 85.44% | 99.72th | Error |
 | CVE-2026-48710 | n/a | 70.29% | 99.39th | Error |
 | CVE-2026-48558 | n/a | 80.79% | 99.63th | Error |
-| CVE-2026-45659 | n/a | 80.24% | 99.62th | Error |
-| CVE-2026-45498 | n/a | 63.08% | 99.21th | Error |
 
-*Last update:* ***2026-11-07*** *(completed in 10.6996s)*
+*Last update:* ***2026-11-08*** *(completed in 9.9398s)*
