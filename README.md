@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1773)
+## Latest 7 CISA KEV Entries (Total: 1779)
 
 
-*Last update:* ***2026-11-09*** *(added 4 CVE)* 
+*Last update:* ***2026-11-10*** *(added 6 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-125350 | Google | Chromium | 2026-11-10 | Unknown |
+| CVE-2026-116606 | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 2026-11-10 | Unknown |
+| CVE-2026-111560 | Barracuda Networks | Multiple Products | 2026-11-10 | Unknown |
+| CVE-2026-20320 | Cisco | BroadWorks | 2026-11-10 | Unknown |
+| CVE-2026-111793 | Openwave Messaging Limited | Webtop Media Transcoder | 2026-11-10 | Unknown |
+| CVE-2026-124194 | Microsoft | Office | 2026-11-10 | Unknown |
 | CVE-2026-123218 | IBM | Aspera Faspex | 2026-11-09 | Unknown |
-| CVE-2026-116779 | SignalWire | FreeSwitch | 2026-11-09 | Unknown |
-| CVE-2026-123158 | OpenBSD | OpenSSH | 2026-11-09 | Unknown |
-| CVE-2026-102895 | GPUStack | GPUStack | 2026-11-09 | Unknown |
-| CVE-2026-19868 | SonicWall | SonicOS SSLVPN | 2026-11-06 | Unknown |
-| CVE-2024-27834 | Apple | Multiple Products | 2026-11-04 | Unknown |
-| CVE-2026-119977 | WordPress | WordPress Core | 2026-11-03 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Tue Nov 10 04:15:20 UTC 2026***
+> *Last check:* ***Wed Nov 11 02:07:07 UTC 2026***
 
 
 > [!TIP]
