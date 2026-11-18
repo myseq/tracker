@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1781)
+## Latest 7 CISA KEV Entries (Total: 1782)
 
 
-*Last update:* ***2026-11-13*** *(added 2 CVE)* 
+*Last update:* ***2026-11-17*** *(added 1 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-115731 | Perforce | Puppet Enterprise | 2026-11-17 | Unknown |
 | CVE-2026-123039 | Check Point | Multiple Products | 2026-11-13 | Unknown |
 | CVE-2026-114713 | UnrealIRCd | UnrealIRCd | 2026-11-13 | Unknown |
 | CVE-2026-125350 | Google | Chromium | 2026-11-10 | Unknown |
 | CVE-2026-116606 | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 2026-11-10 | Unknown |
 | CVE-2026-111560 | Barracuda Networks | Multiple Products | 2026-11-10 | Unknown |
 | CVE-2026-20320 | Cisco | BroadWorks | 2026-11-10 | Unknown |
-| CVE-2026-111793 | Openwave Messaging Limited | Webtop Media Transcoder | 2026-11-10 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Tue Nov 17 04:42:31 UTC 2026***
+> *Last check:* ***Wed Nov 18 03:47:42 UTC 2026***
 
 
 > [!TIP]
