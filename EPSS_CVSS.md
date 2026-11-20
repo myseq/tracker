@@ -2,7 +2,7 @@
 
 This shows the top-25 vulnerabilities that have more than 50.00% chance of being exploited in the next 30 days.
 
-### EPSS Priority Report (Top 25 of 4089 Total CVEs)
+### EPSS Priority Report (Top 25 of 4095 Total CVEs)
 
 | CVE | Vulnerability | Percentage (Probability) | Percentile | CVSS Score |
 | :-- | :------------ | :----------------------: | ---------: | :--------: |
@@ -18,11 +18,24 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2026-81578 | PaperCut NG/MF Missing Authentication for Critical Function Vulnerability | 84.29% | 99.70th | 9.8 |
 | CVE-2026-8037 | Progress LoadMaster Command Injection Vulnerability | 99.79% | 99.96th | 9.6 |
 | CVE-2026-76460 | Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability | 75.60% | 99.53th | 10.0 |
-| CVE-2026-75650 | n/a | 99.38% | 99.94th | Error |
+| CVE-2026-75650 | Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability | 99.38% | 99.94th | 10.0 |
 | CVE-2026-73570 | n/a | 76.62% | 99.55th | Error |
-| CVE-2026-72898 | n/a | 98.51% | 99.92th | Error |
+| CVE-2026-72898 | Metabase SQL Injection Vulnerability | 98.51% | 99.92th | 10.0 |
 | CVE-2026-71362 | n/a | 91.68% | 99.82th | Error |
-| CVE-2026-6875 | n/a | 78.46% | 99.59th | Error |
+| CVE-2026-6875 | *Description: ServiceNow has addressed a remote code execution vulnerability that was identified in the ServiceNow AI platform. This vulnerability could enable an unauthenticated user, in certain circumstances, to execute code within the ServiceNow platform.
+
+
+ServiceNow addressed this vulnerability by deploying a security update to hosted instances. Relevant security updates have also been provided to ServiceNow self-hosted customers and partners.
+
+
+
+
+Further, the vulnerability is addressed in the listed patches and family releases, which have been made available to hosted and self-hosted customers, as well as partners. We are not currently aware of exploitation against ServiceNow instances.
+
+
+
+
+We recommend customers promptly apply appropriate updates or upgrade to a patched release if they have not already done so.* | 78.46% | 99.59th | 0.0 |
 | CVE-2026-63077 | n/a | 94.89% | 99.86th | Error |
 | CVE-2026-61511 | n/a | 74.27% | 99.50th | Error |
 | CVE-2026-59310 | n/a | 61.67% | 99.19th | Error |
@@ -32,4 +45,4 @@ This shows the top-25 vulnerabilities that have more than 50.00% chance of being
 | CVE-2026-50522 | n/a | 81.87% | 99.66th | Error |
 | CVE-2026-49160 | n/a | 56.59% | 99.08th | Error |
 
-*Last update:* ***2026-11-19*** *(completed in 10.7663s)*
+*Last update:* ***2026-11-20*** *(completed in 10.8372s)*
