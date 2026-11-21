@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1786)
+## Latest 7 CISA KEV Entries (Total: 1790)
 
 
-*Last update:* ***2026-11-18*** *(added 4 CVE)* 
+*Last update:* ***2026-11-20*** *(added 4 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-76466 | Cisco | Expressway Series | 2026-11-20 | Unknown |
+| CVE-2025-42884 | SAP | NetWeaver | 2026-11-20 | Unknown |
+| CVE-2026-123890 | Broadcom | VMware vCenter | 2026-11-20 | Unknown |
+| CVE-2026-129448 | Apache | Roller | 2026-11-20 | Unknown |
 | CVE-2026-90436 | Apache | Axis | 2026-11-18 | Unknown |
 | CVE-2026-90817 | Vanderbilt University | Research Electronic Data Capture (REDCap) | 2026-11-18 | Unknown |
 | CVE-2026-40217 | BerriAI | LiteLLM | 2026-11-18 | Unknown |
-| CVE-2024-10441 | Synology | DiskStation Manager (DSM) | 2026-11-18 | Unknown |
-| CVE-2026-115731 | Perforce | Puppet Enterprise | 2026-11-17 | Unknown |
-| CVE-2026-123039 | Check Point | Multiple Products | 2026-11-13 | Unknown |
-| CVE-2026-114713 | UnrealIRCd | UnrealIRCd | 2026-11-13 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Fri Nov 20 03:39:44 UTC 2026***
+> *Last check:* ***Sat Nov 21 03:22:44 UTC 2026***
 
 
 > [!TIP]
