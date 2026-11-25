@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1792)
+## Latest 7 CISA KEV Entries (Total: 1795)
 
 
-*Last update:* ***2026-11-23*** *(added 2 CVE)* 
+*Last update:* ***2026-11-24*** *(added 3 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-132165 | Drupal | Core | 2026-11-24 | Unknown |
+| CVE-2026-131914 | Idunno | AntiCsrf | 2026-11-24 | Unknown |
+| CVE-2026-132224 | Optimizely | Web Experimentation | 2026-11-24 | Unknown |
 | CVE-2026-134624 | N-able | MailAssure | 2026-11-23 | Unknown |
 | CVE-2026-133968 | Project MONAI | MONAI Label | 2026-11-23 | Unknown |
 | CVE-2026-76466 | Cisco | Expressway Series | 2026-11-20 | Unknown |
 | CVE-2025-42884 | SAP | NetWeaver | 2026-11-20 | Unknown |
-| CVE-2026-123890 | Broadcom | VMware vCenter | 2026-11-20 | Unknown |
-| CVE-2026-129448 | Apache | Roller | 2026-11-20 | Unknown |
-| CVE-2026-90436 | Apache | Axis | 2026-11-18 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Tue Nov 24 06:16:15 UTC 2026***
+> *Last check:* ***Wed Nov 25 04:59:00 UTC 2026***
 
 
 > [!TIP]
