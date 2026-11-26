@@ -1,21 +1,21 @@
 # Myseq Tracker
 
 
-## Latest 7 CISA KEV Entries (Total: 1795)
+## Latest 7 CISA KEV Entries (Total: 1805)
 
 
-*Last update:* ***2026-11-24*** *(added 3 CVE)* 
+*Last update:* ***2026-11-25*** *(added 10 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
-| CVE-2026-132165 | Drupal | Core | 2026-11-24 | Unknown |
-| CVE-2026-131914 | Idunno | AntiCsrf | 2026-11-24 | Unknown |
-| CVE-2026-132224 | Optimizely | Web Experimentation | 2026-11-24 | Unknown |
-| CVE-2026-134624 | N-able | MailAssure | 2026-11-23 | Unknown |
-| CVE-2026-133968 | Project MONAI | MONAI Label | 2026-11-23 | Unknown |
-| CVE-2026-76466 | Cisco | Expressway Series | 2026-11-20 | Unknown |
-| CVE-2025-42884 | SAP | NetWeaver | 2026-11-20 | Unknown |
+| CVE-2026-133323 | Mitel | MiCollab | 2026-11-25 | Unknown |
+| CVE-2026-133303 | Mitel | MiCollab | 2026-11-25 | Unknown |
+| CVE-2026-133311 | Mitel | MiCollab | 2026-11-25 | Unknown |
+| CVE-2026-133275 | Mitel | MiCollab | 2026-11-25 | Unknown |
+| CVE-2026-133324 | Mitel | MiCollab | 2026-11-25 | Unknown |
+| CVE-2023-25915 | Danfoss | AK-SM 800A Series | 2026-11-25 | Unknown |
+| CVE-2023-25914 | Danfoss | AK-SM 800A Series | 2026-11-25 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -33,7 +33,7 @@
 
 
 > [!NOTE]
-> *Last check:* ***Wed Nov 25 04:59:00 UTC 2026***
+> *Last check:* ***Thu Nov 26 04:17:09 UTC 2026***
 
 
 > [!TIP]
