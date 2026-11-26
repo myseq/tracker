@@ -1,7 +1,7 @@
 # KEV Tracker
 
-This is the repo for daily tracking on CISA KEV.
 
+This is the repo for daily tracking on CISA KEV.
 ## Latest 7 CISA KEV Entries (Total: 1805)
 
 
@@ -34,7 +34,7 @@ This is the repo for daily tracking on CISA KEV.
 
 
 > [!NOTE]
-> *Last check:* ***Thu Nov 26 04:17:09 UTC 2026***
+> *Last check:* ***Thu Nov 26 04:59:08 UTC 2026***
 
 
 > [!TIP]
