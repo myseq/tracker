@@ -1,5 +1,6 @@
-# Myseq Tracker
+# KEV Tracker
 
+This is the repo for daily tracking on CISA KEV.
 
 ## Latest 7 CISA KEV Entries (Total: 1805)
 

@@ -21,7 +21,8 @@ jobs:
           
       - name: Parsing JSON
         run: |
-          echo -e "# Myseq Tracker\n\n" > latest_kev.md
+          echo -e "# KEV Tracker\n\n" > latest_kev.md
+          echo -e "This is the repo for daily tracking on CISA KEV." >> latest_kev.md
           #TODAY=$(date +%Y-%m-%d)
           TODAY=$(date -u)
           TOTAL=$(jq -r '.count' kev.json)
