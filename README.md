@@ -34,7 +34,7 @@ This is the repo for daily tracking on CISA KEV.
 
 
 > [!NOTE]
-> *Last check:* ***Thu Nov 26 04:59:08 UTC 2026***
+> *Last check:* ***Fri Nov 27 04:26:40 UTC 2026***
 
 
 > [!TIP]
