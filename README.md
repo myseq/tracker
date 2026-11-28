@@ -2,21 +2,21 @@
 
 
 This is the repo for daily tracking on CISA KEV.
-## Latest 7 CISA KEV Entries (Total: 1805)
+## Latest 7 CISA KEV Entries (Total: 1808)
 
 
-*Last update:* ***2026-11-25*** *(added 10 CVE)* 
+*Last update:* ***2026-11-27*** *(added 3 CVE)* 
 
 
 | CVE ID | Vendor/Project | Product | Date Added | Known Ransomware |
 | --- | --- | --- | --- | --- |
+| CVE-2026-136716 | Drupal | Core | 2026-11-27 | Unknown |
+| CVE-2026-129243 | OSGeo | GeoServer | 2026-11-27 | Unknown |
+| CVE-2026-120705 | OSGeo | GeoServer | 2026-11-27 | Unknown |
 | CVE-2026-133323 | Mitel | MiCollab | 2026-11-25 | Unknown |
 | CVE-2026-133303 | Mitel | MiCollab | 2026-11-25 | Unknown |
 | CVE-2026-133311 | Mitel | MiCollab | 2026-11-25 | Unknown |
 | CVE-2026-133275 | Mitel | MiCollab | 2026-11-25 | Unknown |
-| CVE-2026-133324 | Mitel | MiCollab | 2026-11-25 | Unknown |
-| CVE-2023-25915 | Danfoss | AK-SM 800A Series | 2026-11-25 | Unknown |
-| CVE-2023-25914 | Danfoss | AK-SM 800A Series | 2026-11-25 | Unknown |
 
 
 **CVE with Known Ransomware:**
@@ -34,7 +34,7 @@ This is the repo for daily tracking on CISA KEV.
 
 
 > [!NOTE]
-> *Last check:* ***Fri Nov 27 04:26:40 UTC 2026***
+> *Last check:* ***Sat Nov 28 04:07:37 UTC 2026***
 
 
 > [!TIP]
